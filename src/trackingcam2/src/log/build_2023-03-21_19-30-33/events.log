@@ -1,0 +1,100 @@
+[0.000000] (-) TimerEvent: {}
+[0.000149] (trackinghead) JobQueued: {'identifier': 'trackinghead', 'dependencies': OrderedDict()}
+[0.000196] (trackinghead) JobStarted: {'identifier': 'trackinghead'}
+[0.018255] (trackinghead) JobProgress: {'identifier': 'trackinghead', 'progress': 'cmake'}
+[0.019404] (trackinghead) JobProgress: {'identifier': 'trackinghead', 'progress': 'build'}
+[0.020681] (trackinghead) Command: {'cmd': ['/usr/bin/cmake', '--build', '/home/yahyasetz/ros2/trackingcam2/src/build/trackinghead', '--', '-j8', '-l8'], 'cwd': '/home/yahyasetz/ros2/trackingcam2/src/build/trackinghead', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('USER', 'yahyasetz'), ('LC_TIME', 'id_ID.UTF-8'), ('SSH_AGENT_PID', '1548'), ('XDG_SESSION_TYPE', 'x11'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/opt/ros/foxy/opt/yaml_cpp_vendor/lib:/opt/ros/foxy/lib/x86_64-linux-gnu:/opt/ros/foxy/lib'), ('HOME', '/home/yahyasetz'), ('OLDPWD', '/home/yahyasetz/ros2/trackingcam2'), ('DESKTOP_SESSION', 'ubuntu'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('LC_MONETARY', 'id_ID.UTF-8'), ('MANAGERPID', '1367'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('MANDATORY_PATH', '/usr/share/gconf/ubuntu.mandatory.path'), ('IM_CONFIG_PHASE', '1'), ('COLCON_PREFIX_PATH', '/home/yahyasetz/ros2/trackingcam2/src/install:/home/yahyasetz/ros2/trackingcam2/install'), ('ROS_DISTRO', 'foxy'), ('LOGNAME', 'yahyasetz'), ('JOURNAL_STREAM', '8:44874'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('DEFAULTS_PATH', '/usr/share/gconf/ubuntu.default.path'), ('USERNAME', 'yahyasetz'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '0'), ('WINDOWPATH', '2'), ('PATH', '/opt/ros/foxy/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin'), ('SESSION_MANAGER', 'local/yahyasetz:@/tmp/.ICE-unix/1587,unix/yahyasetz:/tmp/.ICE-unix/1587'), ('INVOCATION_ID', 'cd42e6758b004e188f613811d2af0b20'), ('XDG_MENU_PREFIX', 'gnome-'), ('LC_ADDRESS', 'id_ID.UTF-8'), ('GNOME_TERMINAL_SCREEN', '/org/gnome/Terminal/screen/44180776_c7c4_4934_bb17_c91892fd2cd4'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':0'), ('LANG', 'en_US.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('LC_TELEPHONE', 'id_ID.UTF-8'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/gdm/Xauthority'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('GNOME_TERMINAL_SERVICE', ':1.84'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('AMENT_PREFIX_PATH', '/home/yahyasetz/ros2/trackingcam2/src/install/trackinghead:/opt/ros/foxy'), ('SHELL', '/bin/bash'), ('LC_NAME', 'id_ID.UTF-8'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('LC_MEASUREMENT', 'id_ID.UTF-8'), ('GPG_AGENT_INFO', '/run/user/1000/gnupg/S.gpg-agent:0:1'), ('LC_IDENTIFICATION', 'id_ID.UTF-8'), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/yahyasetz/ros2/trackingcam2/src/build/trackinghead'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/opt/ros/foxy/lib/python3.8/site-packages'), ('LC_NUMERIC', 'id_ID.UTF-8'), ('LC_PAPER', 'id_ID.UTF-8'), ('COLCON', '1'), ('VTE_VERSION', '6003'), ('CMAKE_PREFIX_PATH', '/home/yahyasetz/ros2/trackingcam2/src/install/trackinghead:/opt/ros/foxy')]), 'shell': False}
+[0.083625] (trackinghead) StdoutLine: {'line': b'\x1b[35m\x1b[1mScanning dependencies of target head\x1b[0m\n'}
+[0.099125] (-) TimerEvent: {}
+[0.131937] (trackinghead) StdoutLine: {'line': b'[ 50%] \x1b[32mBuilding CXX object CMakeFiles/head.dir/src/main.cpp.o\x1b[0m\n'}
+[0.199259] (-) TimerEvent: {}
+[0.299592] (-) TimerEvent: {}
+[0.399925] (-) TimerEvent: {}
+[0.500259] (-) TimerEvent: {}
+[0.600599] (-) TimerEvent: {}
+[0.700977] (-) TimerEvent: {}
+[0.801311] (-) TimerEvent: {}
+[0.901633] (-) TimerEvent: {}
+[1.001962] (-) TimerEvent: {}
+[1.102285] (-) TimerEvent: {}
+[1.202647] (-) TimerEvent: {}
+[1.302973] (-) TimerEvent: {}
+[1.403307] (-) TimerEvent: {}
+[1.503636] (-) TimerEvent: {}
+[1.603969] (-) TimerEvent: {}
+[1.704301] (-) TimerEvent: {}
+[1.804631] (-) TimerEvent: {}
+[1.904958] (-) TimerEvent: {}
+[2.005289] (-) TimerEvent: {}
+[2.105624] (-) TimerEvent: {}
+[2.205968] (-) TimerEvent: {}
+[2.306293] (-) TimerEvent: {}
+[2.406628] (-) TimerEvent: {}
+[2.506952] (-) TimerEvent: {}
+[2.607289] (-) TimerEvent: {}
+[2.707627] (-) TimerEvent: {}
+[2.807957] (-) TimerEvent: {}
+[2.908291] (-) TimerEvent: {}
+[3.008615] (-) TimerEvent: {}
+[3.108948] (-) TimerEvent: {}
+[3.209284] (-) TimerEvent: {}
+[3.309615] (-) TimerEvent: {}
+[3.409947] (-) TimerEvent: {}
+[3.510266] (-) TimerEvent: {}
+[3.610645] (-) TimerEvent: {}
+[3.711038] (-) TimerEvent: {}
+[3.811365] (-) TimerEvent: {}
+[3.911702] (-) TimerEvent: {}
+[4.012032] (-) TimerEvent: {}
+[4.112359] (-) TimerEvent: {}
+[4.212694] (-) TimerEvent: {}
+[4.313102] (-) TimerEvent: {}
+[4.413429] (-) TimerEvent: {}
+[4.513759] (-) TimerEvent: {}
+[4.614090] (-) TimerEvent: {}
+[4.714407] (-) TimerEvent: {}
+[4.814726] (-) TimerEvent: {}
+[4.915042] (-) TimerEvent: {}
+[5.015359] (-) TimerEvent: {}
+[5.115675] (-) TimerEvent: {}
+[5.215994] (-) TimerEvent: {}
+[5.316310] (-) TimerEvent: {}
+[5.416600] (-) TimerEvent: {}
+[5.516970] (-) TimerEvent: {}
+[5.617295] (-) TimerEvent: {}
+[5.638791] (trackinghead) StdoutLine: {'line': b'[100%] \x1b[32m\x1b[1mLinking CXX executable head\x1b[0m\n'}
+[5.717428] (-) TimerEvent: {}
+[5.817768] (-) TimerEvent: {}
+[5.918135] (-) TimerEvent: {}
+[6.018479] (-) TimerEvent: {}
+[6.118814] (-) TimerEvent: {}
+[6.219177] (-) TimerEvent: {}
+[6.319521] (-) TimerEvent: {}
+[6.322683] (trackinghead) StderrLine: {'line': b'/usr/bin/ld: warning: libopencv_imgproc.so.4.2, needed by /opt/ros/foxy/lib/libcv_bridge.so, may conflict with libopencv_imgproc.so.407\n'}
+[6.322889] (trackinghead) StderrLine: {'line': b'/usr/bin/ld: warning: libopencv_core.so.4.2, needed by /opt/ros/foxy/lib/libcv_bridge.so, may conflict with libopencv_core.so.407\n'}
+[6.336675] (trackinghead) StdoutLine: {'line': b'[100%] Built target head\n'}
+[6.351483] (trackinghead) CommandEnded: {'returncode': 0}
+[6.382409] (trackinghead) JobProgress: {'identifier': 'trackinghead', 'progress': 'install'}
+[6.398840] (trackinghead) Command: {'cmd': ['/usr/bin/cmake', '--install', '/home/yahyasetz/ros2/trackingcam2/src/build/trackinghead'], 'cwd': '/home/yahyasetz/ros2/trackingcam2/src/build/trackinghead', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('USER', 'yahyasetz'), ('LC_TIME', 'id_ID.UTF-8'), ('SSH_AGENT_PID', '1548'), ('XDG_SESSION_TYPE', 'x11'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/opt/ros/foxy/opt/yaml_cpp_vendor/lib:/opt/ros/foxy/lib/x86_64-linux-gnu:/opt/ros/foxy/lib'), ('HOME', '/home/yahyasetz'), ('OLDPWD', '/home/yahyasetz/ros2/trackingcam2'), ('DESKTOP_SESSION', 'ubuntu'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('LC_MONETARY', 'id_ID.UTF-8'), ('MANAGERPID', '1367'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('MANDATORY_PATH', '/usr/share/gconf/ubuntu.mandatory.path'), ('IM_CONFIG_PHASE', '1'), ('COLCON_PREFIX_PATH', '/home/yahyasetz/ros2/trackingcam2/src/install:/home/yahyasetz/ros2/trackingcam2/install'), ('ROS_DISTRO', 'foxy'), ('LOGNAME', 'yahyasetz'), ('JOURNAL_STREAM', '8:44874'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('DEFAULTS_PATH', '/usr/share/gconf/ubuntu.default.path'), ('USERNAME', 'yahyasetz'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '0'), ('WINDOWPATH', '2'), ('PATH', '/opt/ros/foxy/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin'), ('SESSION_MANAGER', 'local/yahyasetz:@/tmp/.ICE-unix/1587,unix/yahyasetz:/tmp/.ICE-unix/1587'), ('INVOCATION_ID', 'cd42e6758b004e188f613811d2af0b20'), ('XDG_MENU_PREFIX', 'gnome-'), ('LC_ADDRESS', 'id_ID.UTF-8'), ('GNOME_TERMINAL_SCREEN', '/org/gnome/Terminal/screen/44180776_c7c4_4934_bb17_c91892fd2cd4'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':0'), ('LANG', 'en_US.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('LC_TELEPHONE', 'id_ID.UTF-8'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/gdm/Xauthority'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('GNOME_TERMINAL_SERVICE', ':1.84'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('AMENT_PREFIX_PATH', '/home/yahyasetz/ros2/trackingcam2/src/install/trackinghead:/opt/ros/foxy'), ('SHELL', '/bin/bash'), ('LC_NAME', 'id_ID.UTF-8'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('LC_MEASUREMENT', 'id_ID.UTF-8'), ('GPG_AGENT_INFO', '/run/user/1000/gnupg/S.gpg-agent:0:1'), ('LC_IDENTIFICATION', 'id_ID.UTF-8'), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/yahyasetz/ros2/trackingcam2/src/build/trackinghead'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/opt/ros/foxy/lib/python3.8/site-packages'), ('LC_NUMERIC', 'id_ID.UTF-8'), ('LC_PAPER', 'id_ID.UTF-8'), ('COLCON', '1'), ('VTE_VERSION', '6003'), ('CMAKE_PREFIX_PATH', '/home/yahyasetz/ros2/trackingcam2/src/install/trackinghead:/opt/ros/foxy')]), 'shell': False}
+[6.410054] (trackinghead) StdoutLine: {'line': b'-- Install configuration: ""\n'}
+[6.410436] (trackinghead) StdoutLine: {'line': b'-- Installing: /home/yahyasetz/ros2/trackingcam2/src/install/trackinghead/lib/trackinghead/head\n'}
+[6.412476] (trackinghead) StdoutLine: {'line': b'-- Set runtime path of "/home/yahyasetz/ros2/trackingcam2/src/install/trackinghead/lib/trackinghead/head" to ""\n'}
+[6.412735] (trackinghead) StdoutLine: {'line': b'-- Up-to-date: /home/yahyasetz/ros2/trackingcam2/src/install/trackinghead/share/ament_index/resource_index/package_run_dependencies/trackinghead\n'}
+[6.413321] (trackinghead) StdoutLine: {'line': b'-- Up-to-date: /home/yahyasetz/ros2/trackingcam2/src/install/trackinghead/share/ament_index/resource_index/parent_prefix_path/trackinghead\n'}
+[6.413517] (trackinghead) StdoutLine: {'line': b'-- Up-to-date: /home/yahyasetz/ros2/trackingcam2/src/install/trackinghead/share/trackinghead/environment/ament_prefix_path.sh\n'}
+[6.413732] (trackinghead) StdoutLine: {'line': b'-- Up-to-date: /home/yahyasetz/ros2/trackingcam2/src/install/trackinghead/share/trackinghead/environment/ament_prefix_path.dsv\n'}
+[6.413915] (trackinghead) StdoutLine: {'line': b'-- Up-to-date: /home/yahyasetz/ros2/trackingcam2/src/install/trackinghead/share/trackinghead/environment/path.sh\n'}
+[6.414078] (trackinghead) StdoutLine: {'line': b'-- Up-to-date: /home/yahyasetz/ros2/trackingcam2/src/install/trackinghead/share/trackinghead/environment/path.dsv\n'}
+[6.414231] (trackinghead) StdoutLine: {'line': b'-- Up-to-date: /home/yahyasetz/ros2/trackingcam2/src/install/trackinghead/share/trackinghead/local_setup.bash\n'}
+[6.414384] (trackinghead) StdoutLine: {'line': b'-- Up-to-date: /home/yahyasetz/ros2/trackingcam2/src/install/trackinghead/share/trackinghead/local_setup.sh\n'}
+[6.414535] (trackinghead) StdoutLine: {'line': b'-- Up-to-date: /home/yahyasetz/ros2/trackingcam2/src/install/trackinghead/share/trackinghead/local_setup.zsh\n'}
+[6.414686] (trackinghead) StdoutLine: {'line': b'-- Up-to-date: /home/yahyasetz/ros2/trackingcam2/src/install/trackinghead/share/trackinghead/local_setup.dsv\n'}
+[6.414836] (trackinghead) StdoutLine: {'line': b'-- Installing: /home/yahyasetz/ros2/trackingcam2/src/install/trackinghead/share/trackinghead/package.dsv\n'}
+[6.414987] (trackinghead) StdoutLine: {'line': b'-- Up-to-date: /home/yahyasetz/ros2/trackingcam2/src/install/trackinghead/share/ament_index/resource_index/packages/trackinghead\n'}
+[6.415143] (trackinghead) StdoutLine: {'line': b'-- Up-to-date: /home/yahyasetz/ros2/trackingcam2/src/install/trackinghead/share/trackinghead/cmake/trackingheadConfig.cmake\n'}
+[6.415301] (trackinghead) StdoutLine: {'line': b'-- Up-to-date: /home/yahyasetz/ros2/trackingcam2/src/install/trackinghead/share/trackinghead/cmake/trackingheadConfig-version.cmake\n'}
+[6.415562] (trackinghead) StdoutLine: {'line': b'-- Up-to-date: /home/yahyasetz/ros2/trackingcam2/src/install/trackinghead/share/trackinghead/package.xml\n'}
+[6.416525] (trackinghead) CommandEnded: {'returncode': 0}
+[6.419628] (-) TimerEvent: {}
+[6.483992] (trackinghead) JobEnded: {'identifier': 'trackinghead', 'rc': 0}
+[6.484988] (-) EventReactorShutdown: {}

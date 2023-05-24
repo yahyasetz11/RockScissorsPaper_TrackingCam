@@ -1,0 +1,467 @@
+[0.530s] DEBUG:colcon:Command line arguments: ['/usr/bin/colcon', 'build']
+[0.530s] DEBUG:colcon:Parsed command line arguments: Namespace(allow_overriding=[], ament_cmake_args=None, base_paths=['.'], build_base='build', catkin_cmake_args=None, catkin_skip_building_tests=False, cmake_args=None, cmake_clean_cache=False, cmake_clean_first=False, cmake_force_configure=False, cmake_target=None, cmake_target_skip_unavailable=False, continue_on_error=False, event_handlers=None, executor='parallel', ignore_user_meta=False, install_base='install', log_base=None, log_level=None, main=<bound method BuildVerb.main of <colcon_core.verb.build.BuildVerb object at 0x7ff8bb4958e0>>, merge_install=False, metas=['./colcon.meta'], packages_above=None, packages_above_and_dependencies=None, packages_above_depth=None, packages_end=None, packages_ignore=None, packages_ignore_regex=None, packages_select=None, packages_select_build_failed=False, packages_select_by_dep=None, packages_select_regex=None, packages_select_test_failures=False, packages_skip=None, packages_skip_build_finished=False, packages_skip_by_dep=None, packages_skip_regex=None, packages_skip_test_passed=False, packages_skip_up_to=None, packages_start=None, packages_up_to=None, packages_up_to_regex=None, parallel_workers=8, paths=None, symlink_install=False, test_result_base=None, verb_extension=<colcon_core.verb.build.BuildVerb object at 0x7ff8bb4958e0>, verb_name='build', verb_parser=<colcon_defaults.argument_parser.defaults.DefaultArgumentsDecorator object at 0x7ff8bb495e50>)
+[0.570s] Level 1:colcon.colcon_core.package_discovery:discover_packages(colcon_meta) check parameters
+[0.570s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) check parameters
+[0.570s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) check parameters
+[0.571s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) check parameters
+[0.571s] Level 1:colcon.colcon_core.package_discovery:discover_packages(colcon_meta) discover
+[0.571s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) discover
+[0.571s] INFO:colcon.colcon_core.package_discovery:Crawling recursively for packages in '/home/yahyasetz/ros2'
+[0.571s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['ignore', 'ignore_ament_install']
+[0.571s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ignore'
+[0.571s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ignore_ament_install'
+[0.571s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['colcon_pkg']
+[0.572s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'colcon_pkg'
+[0.572s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['colcon_meta']
+[0.572s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'colcon_meta'
+[0.572s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['ros']
+[0.572s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ros'
+[0.597s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['cmake', 'python']
+[0.597s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'cmake'
+[0.597s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'python'
+[0.597s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['python_setup_py']
+[0.597s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'python_setup_py'
+[0.598s] Level 1:colcon.colcon_core.package_identification:_identify(build) by extensions ['ignore', 'ignore_ament_install']
+[0.598s] Level 1:colcon.colcon_core.package_identification:_identify(build) by extension 'ignore'
+[0.598s] Level 1:colcon.colcon_core.package_identification:_identify(build) ignored
+[0.598s] Level 1:colcon.colcon_core.package_identification:_identify(install) by extensions ['ignore', 'ignore_ament_install']
+[0.598s] Level 1:colcon.colcon_core.package_identification:_identify(install) by extension 'ignore'
+[0.598s] Level 1:colcon.colcon_core.package_identification:_identify(install) ignored
+[0.598s] Level 1:colcon.colcon_core.package_identification:_identify(log) by extensions ['ignore', 'ignore_ament_install']
+[0.598s] Level 1:colcon.colcon_core.package_identification:_identify(log) by extension 'ignore'
+[0.599s] Level 1:colcon.colcon_core.package_identification:_identify(log) ignored
+[0.599s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['ignore', 'ignore_ament_install']
+[0.599s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'ignore'
+[0.599s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'ignore_ament_install'
+[0.599s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['colcon_pkg']
+[0.599s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'colcon_pkg'
+[0.599s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['colcon_meta']
+[0.599s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'colcon_meta'
+[0.599s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['ros']
+[0.599s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'ros'
+[0.599s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['cmake', 'python']
+[0.599s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'cmake'
+[0.599s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'python'
+[0.600s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['python_setup_py']
+[0.600s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'python_setup_py'
+[0.600s] Level 1:colcon.colcon_core.package_identification:_identify(src/gesture_recognition) by extensions ['ignore', 'ignore_ament_install']
+[0.600s] Level 1:colcon.colcon_core.package_identification:_identify(src/gesture_recognition) by extension 'ignore'
+[0.600s] Level 1:colcon.colcon_core.package_identification:_identify(src/gesture_recognition) by extension 'ignore_ament_install'
+[0.600s] Level 1:colcon.colcon_core.package_identification:_identify(src/gesture_recognition) by extensions ['colcon_pkg']
+[0.600s] Level 1:colcon.colcon_core.package_identification:_identify(src/gesture_recognition) by extension 'colcon_pkg'
+[0.600s] Level 1:colcon.colcon_core.package_identification:_identify(src/gesture_recognition) by extensions ['colcon_meta']
+[0.600s] Level 1:colcon.colcon_core.package_identification:_identify(src/gesture_recognition) by extension 'colcon_meta'
+[0.600s] Level 1:colcon.colcon_core.package_identification:_identify(src/gesture_recognition) by extensions ['ros']
+[0.600s] Level 1:colcon.colcon_core.package_identification:_identify(src/gesture_recognition) by extension 'ros'
+[0.604s] DEBUG:colcon.colcon_core.package_identification:Package 'src/gesture_recognition' with type 'ros.ament_cmake' and name 'gesture_recognition'
+[0.604s] Level 1:colcon.colcon_core.package_identification:_identify(src/opencamera) by extensions ['ignore', 'ignore_ament_install']
+[0.604s] Level 1:colcon.colcon_core.package_identification:_identify(src/opencamera) by extension 'ignore'
+[0.604s] Level 1:colcon.colcon_core.package_identification:_identify(src/opencamera) by extension 'ignore_ament_install'
+[0.604s] Level 1:colcon.colcon_core.package_identification:_identify(src/opencamera) by extensions ['colcon_pkg']
+[0.605s] Level 1:colcon.colcon_core.package_identification:_identify(src/opencamera) by extension 'colcon_pkg'
+[0.605s] Level 1:colcon.colcon_core.package_identification:_identify(src/opencamera) by extensions ['colcon_meta']
+[0.605s] Level 1:colcon.colcon_core.package_identification:_identify(src/opencamera) by extension 'colcon_meta'
+[0.605s] Level 1:colcon.colcon_core.package_identification:_identify(src/opencamera) by extensions ['ros']
+[0.605s] Level 1:colcon.colcon_core.package_identification:_identify(src/opencamera) by extension 'ros'
+[0.606s] DEBUG:colcon.colcon_core.package_identification:Package 'src/opencamera' with type 'ros.ament_cmake' and name 'opencamera'
+[0.606s] Level 1:colcon.colcon_core.package_identification:_identify(src/rock_papers) by extensions ['ignore', 'ignore_ament_install']
+[0.606s] Level 1:colcon.colcon_core.package_identification:_identify(src/rock_papers) by extension 'ignore'
+[0.606s] Level 1:colcon.colcon_core.package_identification:_identify(src/rock_papers) by extension 'ignore_ament_install'
+[0.606s] Level 1:colcon.colcon_core.package_identification:_identify(src/rock_papers) by extensions ['colcon_pkg']
+[0.606s] Level 1:colcon.colcon_core.package_identification:_identify(src/rock_papers) by extension 'colcon_pkg'
+[0.606s] Level 1:colcon.colcon_core.package_identification:_identify(src/rock_papers) by extensions ['colcon_meta']
+[0.607s] Level 1:colcon.colcon_core.package_identification:_identify(src/rock_papers) by extension 'colcon_meta'
+[0.607s] Level 1:colcon.colcon_core.package_identification:_identify(src/rock_papers) by extensions ['ros']
+[0.607s] Level 1:colcon.colcon_core.package_identification:_identify(src/rock_papers) by extension 'ros'
+[0.608s] DEBUG:colcon.colcon_core.package_identification:Package 'src/rock_papers' with type 'ros.ament_cmake' and name 'rock_papers'
+[0.608s] Level 1:colcon.colcon_core.package_identification:_identify(src/source_of_xml) by extensions ['ignore', 'ignore_ament_install']
+[0.608s] Level 1:colcon.colcon_core.package_identification:_identify(src/source_of_xml) by extension 'ignore'
+[0.608s] Level 1:colcon.colcon_core.package_identification:_identify(src/source_of_xml) by extension 'ignore_ament_install'
+[0.608s] Level 1:colcon.colcon_core.package_identification:_identify(src/source_of_xml) by extensions ['colcon_pkg']
+[0.608s] Level 1:colcon.colcon_core.package_identification:_identify(src/source_of_xml) by extension 'colcon_pkg'
+[0.608s] Level 1:colcon.colcon_core.package_identification:_identify(src/source_of_xml) by extensions ['colcon_meta']
+[0.608s] Level 1:colcon.colcon_core.package_identification:_identify(src/source_of_xml) by extension 'colcon_meta'
+[0.609s] Level 1:colcon.colcon_core.package_identification:_identify(src/source_of_xml) by extensions ['ros']
+[0.609s] Level 1:colcon.colcon_core.package_identification:_identify(src/source_of_xml) by extension 'ros'
+[0.609s] Level 1:colcon.colcon_core.package_identification:_identify(src/source_of_xml) by extensions ['cmake', 'python']
+[0.609s] Level 1:colcon.colcon_core.package_identification:_identify(src/source_of_xml) by extension 'cmake'
+[0.609s] Level 1:colcon.colcon_core.package_identification:_identify(src/source_of_xml) by extension 'python'
+[0.609s] Level 1:colcon.colcon_core.package_identification:_identify(src/source_of_xml) by extensions ['python_setup_py']
+[0.609s] Level 1:colcon.colcon_core.package_identification:_identify(src/source_of_xml) by extension 'python_setup_py'
+[0.609s] Level 1:colcon.colcon_core.package_identification:_identify(src/trackingcam2) by extensions ['ignore', 'ignore_ament_install']
+[0.609s] Level 1:colcon.colcon_core.package_identification:_identify(src/trackingcam2) by extension 'ignore'
+[0.609s] Level 1:colcon.colcon_core.package_identification:_identify(src/trackingcam2) by extension 'ignore_ament_install'
+[0.609s] Level 1:colcon.colcon_core.package_identification:_identify(src/trackingcam2) by extensions ['colcon_pkg']
+[0.610s] Level 1:colcon.colcon_core.package_identification:_identify(src/trackingcam2) by extension 'colcon_pkg'
+[0.610s] Level 1:colcon.colcon_core.package_identification:_identify(src/trackingcam2) by extensions ['colcon_meta']
+[0.610s] Level 1:colcon.colcon_core.package_identification:_identify(src/trackingcam2) by extension 'colcon_meta'
+[0.610s] Level 1:colcon.colcon_core.package_identification:_identify(src/trackingcam2) by extensions ['ros']
+[0.610s] Level 1:colcon.colcon_core.package_identification:_identify(src/trackingcam2) by extension 'ros'
+[0.610s] Level 1:colcon.colcon_core.package_identification:_identify(src/trackingcam2) by extensions ['cmake', 'python']
+[0.610s] Level 1:colcon.colcon_core.package_identification:_identify(src/trackingcam2) by extension 'cmake'
+[0.610s] Level 1:colcon.colcon_core.package_identification:_identify(src/trackingcam2) by extension 'python'
+[0.610s] Level 1:colcon.colcon_core.package_identification:_identify(src/trackingcam2) by extensions ['python_setup_py']
+[0.610s] Level 1:colcon.colcon_core.package_identification:_identify(src/trackingcam2) by extension 'python_setup_py'
+[0.610s] Level 1:colcon.colcon_core.package_identification:_identify(src/trackingcam2/build) by extensions ['ignore', 'ignore_ament_install']
+[0.611s] Level 1:colcon.colcon_core.package_identification:_identify(src/trackingcam2/build) by extension 'ignore'
+[0.611s] Level 1:colcon.colcon_core.package_identification:_identify(src/trackingcam2/build) ignored
+[0.611s] Level 1:colcon.colcon_core.package_identification:_identify(src/trackingcam2/install) by extensions ['ignore', 'ignore_ament_install']
+[0.611s] Level 1:colcon.colcon_core.package_identification:_identify(src/trackingcam2/install) by extension 'ignore'
+[0.611s] Level 1:colcon.colcon_core.package_identification:_identify(src/trackingcam2/install) ignored
+[0.611s] Level 1:colcon.colcon_core.package_identification:_identify(src/trackingcam2/log) by extensions ['ignore', 'ignore_ament_install']
+[0.612s] Level 1:colcon.colcon_core.package_identification:_identify(src/trackingcam2/log) by extension 'ignore'
+[0.612s] Level 1:colcon.colcon_core.package_identification:_identify(src/trackingcam2/log) ignored
+[0.612s] Level 1:colcon.colcon_core.package_identification:_identify(src/trackingcam2/src) by extensions ['ignore', 'ignore_ament_install']
+[0.612s] Level 1:colcon.colcon_core.package_identification:_identify(src/trackingcam2/src) by extension 'ignore'
+[0.613s] Level 1:colcon.colcon_core.package_identification:_identify(src/trackingcam2/src) by extension 'ignore_ament_install'
+[0.613s] Level 1:colcon.colcon_core.package_identification:_identify(src/trackingcam2/src) by extensions ['colcon_pkg']
+[0.613s] Level 1:colcon.colcon_core.package_identification:_identify(src/trackingcam2/src) by extension 'colcon_pkg'
+[0.613s] Level 1:colcon.colcon_core.package_identification:_identify(src/trackingcam2/src) by extensions ['colcon_meta']
+[0.613s] Level 1:colcon.colcon_core.package_identification:_identify(src/trackingcam2/src) by extension 'colcon_meta'
+[0.613s] Level 1:colcon.colcon_core.package_identification:_identify(src/trackingcam2/src) by extensions ['ros']
+[0.613s] Level 1:colcon.colcon_core.package_identification:_identify(src/trackingcam2/src) by extension 'ros'
+[0.613s] Level 1:colcon.colcon_core.package_identification:_identify(src/trackingcam2/src) by extensions ['cmake', 'python']
+[0.613s] Level 1:colcon.colcon_core.package_identification:_identify(src/trackingcam2/src) by extension 'cmake'
+[0.613s] Level 1:colcon.colcon_core.package_identification:_identify(src/trackingcam2/src) by extension 'python'
+[0.613s] Level 1:colcon.colcon_core.package_identification:_identify(src/trackingcam2/src) by extensions ['python_setup_py']
+[0.613s] Level 1:colcon.colcon_core.package_identification:_identify(src/trackingcam2/src) by extension 'python_setup_py'
+[0.614s] Level 1:colcon.colcon_core.package_identification:_identify(src/trackingcam2/src/build) by extensions ['ignore', 'ignore_ament_install']
+[0.614s] Level 1:colcon.colcon_core.package_identification:_identify(src/trackingcam2/src/build) by extension 'ignore'
+[0.614s] Level 1:colcon.colcon_core.package_identification:_identify(src/trackingcam2/src/build) ignored
+[0.614s] Level 1:colcon.colcon_core.package_identification:_identify(src/trackingcam2/src/install) by extensions ['ignore', 'ignore_ament_install']
+[0.614s] Level 1:colcon.colcon_core.package_identification:_identify(src/trackingcam2/src/install) by extension 'ignore'
+[0.615s] Level 1:colcon.colcon_core.package_identification:_identify(src/trackingcam2/src/install) ignored
+[0.615s] Level 1:colcon.colcon_core.package_identification:_identify(src/trackingcam2/src/log) by extensions ['ignore', 'ignore_ament_install']
+[0.615s] Level 1:colcon.colcon_core.package_identification:_identify(src/trackingcam2/src/log) by extension 'ignore'
+[0.615s] Level 1:colcon.colcon_core.package_identification:_identify(src/trackingcam2/src/log) ignored
+[0.615s] Level 1:colcon.colcon_core.package_identification:_identify(src/trackingcam2/src/trackinghead) by extensions ['ignore', 'ignore_ament_install']
+[0.615s] Level 1:colcon.colcon_core.package_identification:_identify(src/trackingcam2/src/trackinghead) by extension 'ignore'
+[0.616s] Level 1:colcon.colcon_core.package_identification:_identify(src/trackingcam2/src/trackinghead) by extension 'ignore_ament_install'
+[0.616s] Level 1:colcon.colcon_core.package_identification:_identify(src/trackingcam2/src/trackinghead) by extensions ['colcon_pkg']
+[0.616s] Level 1:colcon.colcon_core.package_identification:_identify(src/trackingcam2/src/trackinghead) by extension 'colcon_pkg'
+[0.616s] Level 1:colcon.colcon_core.package_identification:_identify(src/trackingcam2/src/trackinghead) by extensions ['colcon_meta']
+[0.616s] Level 1:colcon.colcon_core.package_identification:_identify(src/trackingcam2/src/trackinghead) by extension 'colcon_meta'
+[0.616s] Level 1:colcon.colcon_core.package_identification:_identify(src/trackingcam2/src/trackinghead) by extensions ['ros']
+[0.616s] Level 1:colcon.colcon_core.package_identification:_identify(src/trackingcam2/src/trackinghead) by extension 'ros'
+[0.617s] DEBUG:colcon.colcon_core.package_identification:Package 'src/trackingcam2/src/trackinghead' with type 'ros.ament_cmake' and name 'trackinghead'
+[0.617s] Level 1:colcon.colcon_core.package_identification:_identify(src/training_gesture) by extensions ['ignore', 'ignore_ament_install']
+[0.618s] Level 1:colcon.colcon_core.package_identification:_identify(src/training_gesture) by extension 'ignore'
+[0.618s] Level 1:colcon.colcon_core.package_identification:_identify(src/training_gesture) by extension 'ignore_ament_install'
+[0.618s] Level 1:colcon.colcon_core.package_identification:_identify(src/training_gesture) by extensions ['colcon_pkg']
+[0.618s] Level 1:colcon.colcon_core.package_identification:_identify(src/training_gesture) by extension 'colcon_pkg'
+[0.618s] Level 1:colcon.colcon_core.package_identification:_identify(src/training_gesture) by extensions ['colcon_meta']
+[0.618s] Level 1:colcon.colcon_core.package_identification:_identify(src/training_gesture) by extension 'colcon_meta'
+[0.618s] Level 1:colcon.colcon_core.package_identification:_identify(src/training_gesture) by extensions ['ros']
+[0.618s] Level 1:colcon.colcon_core.package_identification:_identify(src/training_gesture) by extension 'ros'
+[0.619s] DEBUG:colcon.colcon_core.package_identification:Package 'src/training_gesture' with type 'ros.ament_cmake' and name 'training_gesture'
+[0.619s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) using defaults
+[0.619s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) discover
+[0.619s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) using defaults
+[0.619s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) discover
+[0.619s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) using defaults
+[0.649s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) check parameters
+[0.650s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) discover
+[0.655s] DEBUG:colcon.colcon_installed_package_information.package_discovery:Found 6 installed packages in /home/yahyasetz/stephanus/install
+[0.658s] DEBUG:colcon.colcon_installed_package_information.package_discovery:Found 207 installed packages in /opt/ros/foxy
+[0.661s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) using defaults
+[0.754s] Level 5:colcon.colcon_core.verb:set package 'gesture_recognition' build argument 'cmake_args' from command line to 'None'
+[0.754s] Level 5:colcon.colcon_core.verb:set package 'gesture_recognition' build argument 'cmake_target' from command line to 'None'
+[0.754s] Level 5:colcon.colcon_core.verb:set package 'gesture_recognition' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.754s] Level 5:colcon.colcon_core.verb:set package 'gesture_recognition' build argument 'cmake_clean_cache' from command line to 'False'
+[0.754s] Level 5:colcon.colcon_core.verb:set package 'gesture_recognition' build argument 'cmake_clean_first' from command line to 'False'
+[0.754s] Level 5:colcon.colcon_core.verb:set package 'gesture_recognition' build argument 'cmake_force_configure' from command line to 'False'
+[0.754s] Level 5:colcon.colcon_core.verb:set package 'gesture_recognition' build argument 'ament_cmake_args' from command line to 'None'
+[0.754s] Level 5:colcon.colcon_core.verb:set package 'gesture_recognition' build argument 'catkin_cmake_args' from command line to 'None'
+[0.754s] Level 5:colcon.colcon_core.verb:set package 'gesture_recognition' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.754s] DEBUG:colcon.colcon_core.verb:Building package 'gesture_recognition' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/yahyasetz/ros2/build/gesture_recognition', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/yahyasetz/ros2/install/gesture_recognition', 'merge_install': False, 'path': '/home/yahyasetz/ros2/src/gesture_recognition', 'symlink_install': False, 'test_result_base': None}
+[0.756s] Level 5:colcon.colcon_core.verb:set package 'opencamera' build argument 'cmake_args' from command line to 'None'
+[0.756s] Level 5:colcon.colcon_core.verb:set package 'opencamera' build argument 'cmake_target' from command line to 'None'
+[0.756s] Level 5:colcon.colcon_core.verb:set package 'opencamera' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.756s] Level 5:colcon.colcon_core.verb:set package 'opencamera' build argument 'cmake_clean_cache' from command line to 'False'
+[0.756s] Level 5:colcon.colcon_core.verb:set package 'opencamera' build argument 'cmake_clean_first' from command line to 'False'
+[0.756s] Level 5:colcon.colcon_core.verb:set package 'opencamera' build argument 'cmake_force_configure' from command line to 'False'
+[0.756s] Level 5:colcon.colcon_core.verb:set package 'opencamera' build argument 'ament_cmake_args' from command line to 'None'
+[0.756s] Level 5:colcon.colcon_core.verb:set package 'opencamera' build argument 'catkin_cmake_args' from command line to 'None'
+[0.756s] Level 5:colcon.colcon_core.verb:set package 'opencamera' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.756s] DEBUG:colcon.colcon_core.verb:Building package 'opencamera' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/yahyasetz/ros2/build/opencamera', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/yahyasetz/ros2/install/opencamera', 'merge_install': False, 'path': '/home/yahyasetz/ros2/src/opencamera', 'symlink_install': False, 'test_result_base': None}
+[0.758s] Level 5:colcon.colcon_core.verb:set package 'rock_papers' build argument 'cmake_args' from command line to 'None'
+[0.758s] Level 5:colcon.colcon_core.verb:set package 'rock_papers' build argument 'cmake_target' from command line to 'None'
+[0.758s] Level 5:colcon.colcon_core.verb:set package 'rock_papers' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.758s] Level 5:colcon.colcon_core.verb:set package 'rock_papers' build argument 'cmake_clean_cache' from command line to 'False'
+[0.758s] Level 5:colcon.colcon_core.verb:set package 'rock_papers' build argument 'cmake_clean_first' from command line to 'False'
+[0.758s] Level 5:colcon.colcon_core.verb:set package 'rock_papers' build argument 'cmake_force_configure' from command line to 'False'
+[0.758s] Level 5:colcon.colcon_core.verb:set package 'rock_papers' build argument 'ament_cmake_args' from command line to 'None'
+[0.758s] Level 5:colcon.colcon_core.verb:set package 'rock_papers' build argument 'catkin_cmake_args' from command line to 'None'
+[0.758s] Level 5:colcon.colcon_core.verb:set package 'rock_papers' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.759s] DEBUG:colcon.colcon_core.verb:Building package 'rock_papers' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/yahyasetz/ros2/build/rock_papers', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/yahyasetz/ros2/install/rock_papers', 'merge_install': False, 'path': '/home/yahyasetz/ros2/src/rock_papers', 'symlink_install': False, 'test_result_base': None}
+[0.760s] Level 5:colcon.colcon_core.verb:set package 'trackinghead' build argument 'cmake_args' from command line to 'None'
+[0.760s] Level 5:colcon.colcon_core.verb:set package 'trackinghead' build argument 'cmake_target' from command line to 'None'
+[0.760s] Level 5:colcon.colcon_core.verb:set package 'trackinghead' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.760s] Level 5:colcon.colcon_core.verb:set package 'trackinghead' build argument 'cmake_clean_cache' from command line to 'False'
+[0.760s] Level 5:colcon.colcon_core.verb:set package 'trackinghead' build argument 'cmake_clean_first' from command line to 'False'
+[0.760s] Level 5:colcon.colcon_core.verb:set package 'trackinghead' build argument 'cmake_force_configure' from command line to 'False'
+[0.760s] Level 5:colcon.colcon_core.verb:set package 'trackinghead' build argument 'ament_cmake_args' from command line to 'None'
+[0.760s] Level 5:colcon.colcon_core.verb:set package 'trackinghead' build argument 'catkin_cmake_args' from command line to 'None'
+[0.760s] Level 5:colcon.colcon_core.verb:set package 'trackinghead' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.760s] DEBUG:colcon.colcon_core.verb:Building package 'trackinghead' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/yahyasetz/ros2/build/trackinghead', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/yahyasetz/ros2/install/trackinghead', 'merge_install': False, 'path': '/home/yahyasetz/ros2/src/trackingcam2/src/trackinghead', 'symlink_install': False, 'test_result_base': None}
+[0.762s] Level 5:colcon.colcon_core.verb:set package 'training_gesture' build argument 'cmake_args' from command line to 'None'
+[0.762s] Level 5:colcon.colcon_core.verb:set package 'training_gesture' build argument 'cmake_target' from command line to 'None'
+[0.762s] Level 5:colcon.colcon_core.verb:set package 'training_gesture' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.762s] Level 5:colcon.colcon_core.verb:set package 'training_gesture' build argument 'cmake_clean_cache' from command line to 'False'
+[0.762s] Level 5:colcon.colcon_core.verb:set package 'training_gesture' build argument 'cmake_clean_first' from command line to 'False'
+[0.762s] Level 5:colcon.colcon_core.verb:set package 'training_gesture' build argument 'cmake_force_configure' from command line to 'False'
+[0.762s] Level 5:colcon.colcon_core.verb:set package 'training_gesture' build argument 'ament_cmake_args' from command line to 'None'
+[0.762s] Level 5:colcon.colcon_core.verb:set package 'training_gesture' build argument 'catkin_cmake_args' from command line to 'None'
+[0.762s] Level 5:colcon.colcon_core.verb:set package 'training_gesture' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.762s] DEBUG:colcon.colcon_core.verb:Building package 'training_gesture' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/yahyasetz/ros2/build/training_gesture', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/yahyasetz/ros2/install/training_gesture', 'merge_install': False, 'path': '/home/yahyasetz/ros2/src/training_gesture', 'symlink_install': False, 'test_result_base': None}
+[0.764s] INFO:colcon.colcon_core.executor:Executing jobs using 'parallel' executor
+[0.769s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:run_until_complete
+[0.769s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/home/yahyasetz/ros2/src/gesture_recognition' with build type 'ament_cmake'
+[0.770s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/home/yahyasetz/ros2/src/gesture_recognition'
+[0.779s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_core.shell.bat': Not used on non-Windows systems
+[0.780s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[0.780s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[0.791s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/home/yahyasetz/ros2/src/opencamera' with build type 'ament_cmake'
+[0.792s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/home/yahyasetz/ros2/src/opencamera'
+[0.794s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[0.795s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[0.806s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/home/yahyasetz/ros2/src/rock_papers' with build type 'ament_cmake'
+[0.807s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/home/yahyasetz/ros2/src/rock_papers'
+[0.809s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[0.809s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[0.818s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/home/yahyasetz/ros2/src/trackingcam2/src/trackinghead' with build type 'ament_cmake'
+[0.819s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/home/yahyasetz/ros2/src/trackingcam2/src/trackinghead'
+[0.822s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[0.822s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[0.831s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/home/yahyasetz/ros2/src/training_gesture' with build type 'ament_cmake'
+[0.832s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/home/yahyasetz/ros2/src/training_gesture'
+[0.835s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[0.835s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[0.856s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/yahyasetz/ros2/build/gesture_recognition': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/foxy /usr/bin/cmake /home/yahyasetz/ros2/src/gesture_recognition -DCMAKE_INSTALL_PREFIX=/home/yahyasetz/ros2/install/gesture_recognition
+[0.874s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/yahyasetz/ros2/build/opencamera': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/foxy /usr/bin/cmake /home/yahyasetz/ros2/src/opencamera -DCMAKE_INSTALL_PREFIX=/home/yahyasetz/ros2/install/opencamera
+[0.887s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/yahyasetz/ros2/build/rock_papers': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/foxy /usr/bin/cmake /home/yahyasetz/ros2/src/rock_papers -DCMAKE_INSTALL_PREFIX=/home/yahyasetz/ros2/install/rock_papers
+[0.889s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/yahyasetz/ros2/build/trackinghead': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/foxy /usr/bin/cmake /home/yahyasetz/ros2/src/trackingcam2/src/trackinghead -DCMAKE_INSTALL_PREFIX=/home/yahyasetz/ros2/install/trackinghead
+[0.906s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/yahyasetz/ros2/build/training_gesture': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/foxy /usr/bin/cmake /home/yahyasetz/ros2/src/training_gesture -DCMAKE_INSTALL_PREFIX=/home/yahyasetz/ros2/install/training_gesture
+[2.590s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/yahyasetz/ros2/build/gesture_recognition' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/foxy /usr/bin/cmake /home/yahyasetz/ros2/src/gesture_recognition -DCMAKE_INSTALL_PREFIX=/home/yahyasetz/ros2/install/gesture_recognition
+[2.592s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/yahyasetz/ros2/build/gesture_recognition': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/foxy /usr/bin/cmake --build /home/yahyasetz/ros2/build/gesture_recognition -- -j8 -l8
+[2.607s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/yahyasetz/ros2/build/training_gesture' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/foxy /usr/bin/cmake /home/yahyasetz/ros2/src/training_gesture -DCMAKE_INSTALL_PREFIX=/home/yahyasetz/ros2/install/training_gesture
+[2.611s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/yahyasetz/ros2/build/training_gesture': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/foxy /usr/bin/cmake --build /home/yahyasetz/ros2/build/training_gesture -- -j8 -l8
+[4.690s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/yahyasetz/ros2/build/opencamera' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/foxy /usr/bin/cmake /home/yahyasetz/ros2/src/opencamera -DCMAKE_INSTALL_PREFIX=/home/yahyasetz/ros2/install/opencamera
+[4.698s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/yahyasetz/ros2/build/opencamera': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/foxy /usr/bin/cmake --build /home/yahyasetz/ros2/build/opencamera -- -j8 -l8
+[4.779s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/yahyasetz/ros2/build/rock_papers' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/foxy /usr/bin/cmake /home/yahyasetz/ros2/src/rock_papers -DCMAKE_INSTALL_PREFIX=/home/yahyasetz/ros2/install/rock_papers
+[4.785s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/yahyasetz/ros2/build/rock_papers': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/foxy /usr/bin/cmake --build /home/yahyasetz/ros2/build/rock_papers -- -j8 -l8
+[4.862s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/yahyasetz/ros2/build/trackinghead' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/foxy /usr/bin/cmake /home/yahyasetz/ros2/src/trackingcam2/src/trackinghead -DCMAKE_INSTALL_PREFIX=/home/yahyasetz/ros2/install/trackinghead
+[4.869s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/yahyasetz/ros2/build/trackinghead': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/foxy /usr/bin/cmake --build /home/yahyasetz/ros2/build/trackinghead -- -j8 -l8
+[7.093s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/yahyasetz/ros2/build/training_gesture' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/foxy /usr/bin/cmake --build /home/yahyasetz/ros2/build/training_gesture -- -j8 -l8
+[7.131s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/yahyasetz/ros2/build/gesture_recognition' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/foxy /usr/bin/cmake --build /home/yahyasetz/ros2/build/gesture_recognition -- -j8 -l8
+[7.195s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/yahyasetz/ros2/build/training_gesture': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/foxy /usr/bin/cmake --install /home/yahyasetz/ros2/build/training_gesture
+[7.203s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/yahyasetz/ros2/build/gesture_recognition': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/foxy /usr/bin/cmake --install /home/yahyasetz/ros2/build/gesture_recognition
+[7.221s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(training_gesture)
+[7.226s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/yahyasetz/ros2/build/training_gesture' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/foxy /usr/bin/cmake --install /home/yahyasetz/ros2/build/training_gesture
+[7.232s] Level 1:colcon.colcon_core.environment:checking '/home/yahyasetz/ros2/install/training_gesture' for CMake module files
+[7.233s] Level 1:colcon.colcon_core.environment:checking '/home/yahyasetz/ros2/install/training_gesture' for CMake config files
+[7.233s] Level 1:colcon.colcon_core.shell:create_environment_hook('training_gesture', 'cmake_prefix_path')
+[7.235s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/yahyasetz/ros2/install/training_gesture/share/training_gesture/hook/cmake_prefix_path.ps1'
+[7.236s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/yahyasetz/ros2/install/training_gesture/share/training_gesture/hook/cmake_prefix_path.dsv'
+[7.237s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/yahyasetz/ros2/install/training_gesture/share/training_gesture/hook/cmake_prefix_path.sh'
+[7.238s] Level 1:colcon.colcon_core.environment:checking '/home/yahyasetz/ros2/install/training_gesture/lib'
+[7.238s] Level 1:colcon.colcon_core.environment:checking '/home/yahyasetz/ros2/install/training_gesture/bin'
+[7.239s] Level 1:colcon.colcon_core.environment:checking '/home/yahyasetz/ros2/install/training_gesture/lib/pkgconfig/training_gesture.pc'
+[7.239s] Level 1:colcon.colcon_core.environment:checking '/home/yahyasetz/ros2/install/training_gesture/lib/python3.8/site-packages'
+[7.239s] Level 1:colcon.colcon_core.environment:checking '/home/yahyasetz/ros2/install/training_gesture/bin'
+[7.241s] INFO:colcon.colcon_core.shell:Creating package script '/home/yahyasetz/ros2/install/training_gesture/share/training_gesture/package.ps1'
+[7.243s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/yahyasetz/ros2/install/training_gesture/share/training_gesture/package.dsv'
+[7.243s] INFO:colcon.colcon_core.shell:Creating package script '/home/yahyasetz/ros2/install/training_gesture/share/training_gesture/package.sh'
+[7.244s] INFO:colcon.colcon_core.shell:Creating package script '/home/yahyasetz/ros2/install/training_gesture/share/training_gesture/package.bash'
+[7.245s] INFO:colcon.colcon_core.shell:Creating package script '/home/yahyasetz/ros2/install/training_gesture/share/training_gesture/package.zsh'
+[7.246s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/yahyasetz/ros2/install/training_gesture/share/colcon-core/packages/training_gesture)
+[7.252s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(gesture_recognition)
+[7.253s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/yahyasetz/ros2/build/gesture_recognition' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/foxy /usr/bin/cmake --install /home/yahyasetz/ros2/build/gesture_recognition
+[7.261s] Level 1:colcon.colcon_core.environment:checking '/home/yahyasetz/ros2/install/gesture_recognition' for CMake module files
+[7.262s] Level 1:colcon.colcon_core.environment:checking '/home/yahyasetz/ros2/install/gesture_recognition' for CMake config files
+[7.262s] Level 1:colcon.colcon_core.shell:create_environment_hook('gesture_recognition', 'cmake_prefix_path')
+[7.266s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/yahyasetz/ros2/install/gesture_recognition/share/gesture_recognition/hook/cmake_prefix_path.ps1'
+[7.267s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/yahyasetz/ros2/install/gesture_recognition/share/gesture_recognition/hook/cmake_prefix_path.dsv'
+[7.268s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/yahyasetz/ros2/install/gesture_recognition/share/gesture_recognition/hook/cmake_prefix_path.sh'
+[7.269s] Level 1:colcon.colcon_core.environment:checking '/home/yahyasetz/ros2/install/gesture_recognition/lib'
+[7.270s] Level 1:colcon.colcon_core.environment:checking '/home/yahyasetz/ros2/install/gesture_recognition/bin'
+[7.270s] Level 1:colcon.colcon_core.environment:checking '/home/yahyasetz/ros2/install/gesture_recognition/lib/pkgconfig/gesture_recognition.pc'
+[7.270s] Level 1:colcon.colcon_core.environment:checking '/home/yahyasetz/ros2/install/gesture_recognition/lib/python3.8/site-packages'
+[7.271s] Level 1:colcon.colcon_core.environment:checking '/home/yahyasetz/ros2/install/gesture_recognition/bin'
+[7.273s] INFO:colcon.colcon_core.shell:Creating package script '/home/yahyasetz/ros2/install/gesture_recognition/share/gesture_recognition/package.ps1'
+[7.274s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/yahyasetz/ros2/install/gesture_recognition/share/gesture_recognition/package.dsv'
+[7.275s] INFO:colcon.colcon_core.shell:Creating package script '/home/yahyasetz/ros2/install/gesture_recognition/share/gesture_recognition/package.sh'
+[7.276s] INFO:colcon.colcon_core.shell:Creating package script '/home/yahyasetz/ros2/install/gesture_recognition/share/gesture_recognition/package.bash'
+[7.277s] INFO:colcon.colcon_core.shell:Creating package script '/home/yahyasetz/ros2/install/gesture_recognition/share/gesture_recognition/package.zsh'
+[7.277s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/yahyasetz/ros2/install/gesture_recognition/share/colcon-core/packages/gesture_recognition)
+[7.307s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(training_gesture)
+[7.312s] Level 1:colcon.colcon_core.environment:checking '/home/yahyasetz/ros2/install/training_gesture' for CMake module files
+[7.313s] Level 1:colcon.colcon_core.environment:checking '/home/yahyasetz/ros2/install/training_gesture' for CMake config files
+[7.313s] Level 1:colcon.colcon_core.shell:create_environment_hook('training_gesture', 'cmake_prefix_path')
+[7.316s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/yahyasetz/ros2/install/training_gesture/share/training_gesture/hook/cmake_prefix_path.ps1'
+[7.318s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/yahyasetz/ros2/install/training_gesture/share/training_gesture/hook/cmake_prefix_path.dsv'
+[7.319s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/yahyasetz/ros2/install/training_gesture/share/training_gesture/hook/cmake_prefix_path.sh'
+[7.319s] Level 1:colcon.colcon_core.environment:checking '/home/yahyasetz/ros2/install/training_gesture/lib'
+[7.320s] Level 1:colcon.colcon_core.environment:checking '/home/yahyasetz/ros2/install/training_gesture/bin'
+[7.320s] Level 1:colcon.colcon_core.environment:checking '/home/yahyasetz/ros2/install/training_gesture/lib/pkgconfig/training_gesture.pc'
+[7.320s] Level 1:colcon.colcon_core.environment:checking '/home/yahyasetz/ros2/install/training_gesture/lib/python3.8/site-packages'
+[7.320s] Level 1:colcon.colcon_core.environment:checking '/home/yahyasetz/ros2/install/training_gesture/bin'
+[7.325s] INFO:colcon.colcon_core.shell:Creating package script '/home/yahyasetz/ros2/install/training_gesture/share/training_gesture/package.ps1'
+[7.326s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/yahyasetz/ros2/install/training_gesture/share/training_gesture/package.dsv'
+[7.326s] INFO:colcon.colcon_core.shell:Creating package script '/home/yahyasetz/ros2/install/training_gesture/share/training_gesture/package.sh'
+[7.327s] INFO:colcon.colcon_core.shell:Creating package script '/home/yahyasetz/ros2/install/training_gesture/share/training_gesture/package.bash'
+[7.328s] INFO:colcon.colcon_core.shell:Creating package script '/home/yahyasetz/ros2/install/training_gesture/share/training_gesture/package.zsh'
+[7.328s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/yahyasetz/ros2/install/training_gesture/share/colcon-core/packages/training_gesture)
+[7.339s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(gesture_recognition)
+[7.344s] Level 1:colcon.colcon_core.environment:checking '/home/yahyasetz/ros2/install/gesture_recognition' for CMake module files
+[7.345s] Level 1:colcon.colcon_core.environment:checking '/home/yahyasetz/ros2/install/gesture_recognition' for CMake config files
+[7.345s] Level 1:colcon.colcon_core.shell:create_environment_hook('gesture_recognition', 'cmake_prefix_path')
+[7.348s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/yahyasetz/ros2/install/gesture_recognition/share/gesture_recognition/hook/cmake_prefix_path.ps1'
+[7.349s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/yahyasetz/ros2/install/gesture_recognition/share/gesture_recognition/hook/cmake_prefix_path.dsv'
+[7.350s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/yahyasetz/ros2/install/gesture_recognition/share/gesture_recognition/hook/cmake_prefix_path.sh'
+[7.350s] Level 1:colcon.colcon_core.environment:checking '/home/yahyasetz/ros2/install/gesture_recognition/lib'
+[7.350s] Level 1:colcon.colcon_core.environment:checking '/home/yahyasetz/ros2/install/gesture_recognition/bin'
+[7.351s] Level 1:colcon.colcon_core.environment:checking '/home/yahyasetz/ros2/install/gesture_recognition/lib/pkgconfig/gesture_recognition.pc'
+[7.351s] Level 1:colcon.colcon_core.environment:checking '/home/yahyasetz/ros2/install/gesture_recognition/lib/python3.8/site-packages'
+[7.351s] Level 1:colcon.colcon_core.environment:checking '/home/yahyasetz/ros2/install/gesture_recognition/bin'
+[7.354s] INFO:colcon.colcon_core.shell:Creating package script '/home/yahyasetz/ros2/install/gesture_recognition/share/gesture_recognition/package.ps1'
+[7.355s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/yahyasetz/ros2/install/gesture_recognition/share/gesture_recognition/package.dsv'
+[7.355s] INFO:colcon.colcon_core.shell:Creating package script '/home/yahyasetz/ros2/install/gesture_recognition/share/gesture_recognition/package.sh'
+[7.356s] INFO:colcon.colcon_core.shell:Creating package script '/home/yahyasetz/ros2/install/gesture_recognition/share/gesture_recognition/package.bash'
+[7.356s] INFO:colcon.colcon_core.shell:Creating package script '/home/yahyasetz/ros2/install/gesture_recognition/share/gesture_recognition/package.zsh'
+[7.357s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/yahyasetz/ros2/install/gesture_recognition/share/colcon-core/packages/gesture_recognition)
+[10.906s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/yahyasetz/ros2/build/rock_papers' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/foxy /usr/bin/cmake --build /home/yahyasetz/ros2/build/rock_papers -- -j8 -l8
+[10.946s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/yahyasetz/ros2/build/rock_papers': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/foxy /usr/bin/cmake --install /home/yahyasetz/ros2/build/rock_papers
+[10.965s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(rock_papers)
+[10.974s] Level 1:colcon.colcon_core.environment:checking '/home/yahyasetz/ros2/install/rock_papers' for CMake module files
+[10.975s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/yahyasetz/ros2/build/rock_papers' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/foxy /usr/bin/cmake --install /home/yahyasetz/ros2/build/rock_papers
+[10.975s] Level 1:colcon.colcon_core.environment:checking '/home/yahyasetz/ros2/install/rock_papers' for CMake config files
+[10.976s] Level 1:colcon.colcon_core.shell:create_environment_hook('rock_papers', 'cmake_prefix_path')
+[10.978s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/yahyasetz/ros2/install/rock_papers/share/rock_papers/hook/cmake_prefix_path.ps1'
+[10.979s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/yahyasetz/ros2/install/rock_papers/share/rock_papers/hook/cmake_prefix_path.dsv'
+[10.979s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/yahyasetz/ros2/install/rock_papers/share/rock_papers/hook/cmake_prefix_path.sh'
+[10.980s] Level 1:colcon.colcon_core.environment:checking '/home/yahyasetz/ros2/install/rock_papers/lib'
+[10.980s] Level 1:colcon.colcon_core.environment:checking '/home/yahyasetz/ros2/install/rock_papers/bin'
+[10.980s] Level 1:colcon.colcon_core.environment:checking '/home/yahyasetz/ros2/install/rock_papers/lib/pkgconfig/rock_papers.pc'
+[10.981s] Level 1:colcon.colcon_core.environment:checking '/home/yahyasetz/ros2/install/rock_papers/lib/python3.8/site-packages'
+[10.981s] Level 1:colcon.colcon_core.environment:checking '/home/yahyasetz/ros2/install/rock_papers/bin'
+[10.983s] INFO:colcon.colcon_core.shell:Creating package script '/home/yahyasetz/ros2/install/rock_papers/share/rock_papers/package.ps1'
+[10.984s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/yahyasetz/ros2/install/rock_papers/share/rock_papers/package.dsv'
+[10.984s] INFO:colcon.colcon_core.shell:Creating package script '/home/yahyasetz/ros2/install/rock_papers/share/rock_papers/package.sh'
+[10.985s] INFO:colcon.colcon_core.shell:Creating package script '/home/yahyasetz/ros2/install/rock_papers/share/rock_papers/package.bash'
+[10.985s] INFO:colcon.colcon_core.shell:Creating package script '/home/yahyasetz/ros2/install/rock_papers/share/rock_papers/package.zsh'
+[10.986s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/yahyasetz/ros2/install/rock_papers/share/colcon-core/packages/rock_papers)
+[11.029s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(rock_papers)
+[11.033s] Level 1:colcon.colcon_core.environment:checking '/home/yahyasetz/ros2/install/rock_papers' for CMake module files
+[11.034s] Level 1:colcon.colcon_core.environment:checking '/home/yahyasetz/ros2/install/rock_papers' for CMake config files
+[11.034s] Level 1:colcon.colcon_core.shell:create_environment_hook('rock_papers', 'cmake_prefix_path')
+[11.036s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/yahyasetz/ros2/install/rock_papers/share/rock_papers/hook/cmake_prefix_path.ps1'
+[11.037s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/yahyasetz/ros2/install/rock_papers/share/rock_papers/hook/cmake_prefix_path.dsv'
+[11.038s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/yahyasetz/ros2/install/rock_papers/share/rock_papers/hook/cmake_prefix_path.sh'
+[11.039s] Level 1:colcon.colcon_core.environment:checking '/home/yahyasetz/ros2/install/rock_papers/lib'
+[11.039s] Level 1:colcon.colcon_core.environment:checking '/home/yahyasetz/ros2/install/rock_papers/bin'
+[11.039s] Level 1:colcon.colcon_core.environment:checking '/home/yahyasetz/ros2/install/rock_papers/lib/pkgconfig/rock_papers.pc'
+[11.039s] Level 1:colcon.colcon_core.environment:checking '/home/yahyasetz/ros2/install/rock_papers/lib/python3.8/site-packages'
+[11.040s] Level 1:colcon.colcon_core.environment:checking '/home/yahyasetz/ros2/install/rock_papers/bin'
+[11.042s] INFO:colcon.colcon_core.shell:Creating package script '/home/yahyasetz/ros2/install/rock_papers/share/rock_papers/package.ps1'
+[11.043s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/yahyasetz/ros2/install/rock_papers/share/rock_papers/package.dsv'
+[11.043s] INFO:colcon.colcon_core.shell:Creating package script '/home/yahyasetz/ros2/install/rock_papers/share/rock_papers/package.sh'
+[11.044s] INFO:colcon.colcon_core.shell:Creating package script '/home/yahyasetz/ros2/install/rock_papers/share/rock_papers/package.bash'
+[11.045s] INFO:colcon.colcon_core.shell:Creating package script '/home/yahyasetz/ros2/install/rock_papers/share/rock_papers/package.zsh'
+[11.046s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/yahyasetz/ros2/install/rock_papers/share/colcon-core/packages/rock_papers)
+[11.345s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/yahyasetz/ros2/build/opencamera' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/foxy /usr/bin/cmake --build /home/yahyasetz/ros2/build/opencamera -- -j8 -l8
+[11.387s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/yahyasetz/ros2/build/opencamera': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/foxy /usr/bin/cmake --install /home/yahyasetz/ros2/build/opencamera
+[11.409s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(opencamera)
+[11.413s] Level 1:colcon.colcon_core.environment:checking '/home/yahyasetz/ros2/install/opencamera' for CMake module files
+[11.414s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/yahyasetz/ros2/build/opencamera' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/foxy /usr/bin/cmake --install /home/yahyasetz/ros2/build/opencamera
+[11.414s] Level 1:colcon.colcon_core.environment:checking '/home/yahyasetz/ros2/install/opencamera' for CMake config files
+[11.415s] Level 1:colcon.colcon_core.shell:create_environment_hook('opencamera', 'cmake_prefix_path')
+[11.417s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/yahyasetz/ros2/install/opencamera/share/opencamera/hook/cmake_prefix_path.ps1'
+[11.417s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/yahyasetz/ros2/install/opencamera/share/opencamera/hook/cmake_prefix_path.dsv'
+[11.418s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/yahyasetz/ros2/install/opencamera/share/opencamera/hook/cmake_prefix_path.sh'
+[11.419s] Level 1:colcon.colcon_core.environment:checking '/home/yahyasetz/ros2/install/opencamera/libopencamera'
+[11.419s] Level 1:colcon.colcon_core.environment:checking '/home/yahyasetz/ros2/install/opencamera/bin'
+[11.419s] Level 1:colcon.colcon_core.environment:checking '/home/yahyasetz/ros2/install/opencamera/lib/pkgconfig/opencamera.pc'
+[11.419s] Level 1:colcon.colcon_core.environment:checking '/home/yahyasetz/ros2/install/opencamera/lib/python3.8/site-packages'
+[11.420s] Level 1:colcon.colcon_core.environment:checking '/home/yahyasetz/ros2/install/opencamera/bin'
+[11.422s] INFO:colcon.colcon_core.shell:Creating package script '/home/yahyasetz/ros2/install/opencamera/share/opencamera/package.ps1'
+[11.423s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/yahyasetz/ros2/install/opencamera/share/opencamera/package.dsv'
+[11.423s] INFO:colcon.colcon_core.shell:Creating package script '/home/yahyasetz/ros2/install/opencamera/share/opencamera/package.sh'
+[11.424s] INFO:colcon.colcon_core.shell:Creating package script '/home/yahyasetz/ros2/install/opencamera/share/opencamera/package.bash'
+[11.424s] INFO:colcon.colcon_core.shell:Creating package script '/home/yahyasetz/ros2/install/opencamera/share/opencamera/package.zsh'
+[11.425s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/yahyasetz/ros2/install/opencamera/share/colcon-core/packages/opencamera)
+[11.466s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(opencamera)
+[11.472s] Level 1:colcon.colcon_core.environment:checking '/home/yahyasetz/ros2/install/opencamera' for CMake module files
+[11.473s] Level 1:colcon.colcon_core.environment:checking '/home/yahyasetz/ros2/install/opencamera' for CMake config files
+[11.473s] Level 1:colcon.colcon_core.shell:create_environment_hook('opencamera', 'cmake_prefix_path')
+[11.475s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/yahyasetz/ros2/install/opencamera/share/opencamera/hook/cmake_prefix_path.ps1'
+[11.476s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/yahyasetz/ros2/install/opencamera/share/opencamera/hook/cmake_prefix_path.dsv'
+[11.477s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/yahyasetz/ros2/install/opencamera/share/opencamera/hook/cmake_prefix_path.sh'
+[11.478s] Level 1:colcon.colcon_core.environment:checking '/home/yahyasetz/ros2/install/opencamera/libopencamera'
+[11.478s] Level 1:colcon.colcon_core.environment:checking '/home/yahyasetz/ros2/install/opencamera/bin'
+[11.478s] Level 1:colcon.colcon_core.environment:checking '/home/yahyasetz/ros2/install/opencamera/lib/pkgconfig/opencamera.pc'
+[11.478s] Level 1:colcon.colcon_core.environment:checking '/home/yahyasetz/ros2/install/opencamera/lib/python3.8/site-packages'
+[11.479s] Level 1:colcon.colcon_core.environment:checking '/home/yahyasetz/ros2/install/opencamera/bin'
+[11.481s] INFO:colcon.colcon_core.shell:Creating package script '/home/yahyasetz/ros2/install/opencamera/share/opencamera/package.ps1'
+[11.481s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/yahyasetz/ros2/install/opencamera/share/opencamera/package.dsv'
+[11.482s] INFO:colcon.colcon_core.shell:Creating package script '/home/yahyasetz/ros2/install/opencamera/share/opencamera/package.sh'
+[11.483s] INFO:colcon.colcon_core.shell:Creating package script '/home/yahyasetz/ros2/install/opencamera/share/opencamera/package.bash'
+[11.483s] INFO:colcon.colcon_core.shell:Creating package script '/home/yahyasetz/ros2/install/opencamera/share/opencamera/package.zsh'
+[11.484s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/yahyasetz/ros2/install/opencamera/share/colcon-core/packages/opencamera)
+[13.709s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/yahyasetz/ros2/build/trackinghead' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/foxy /usr/bin/cmake --build /home/yahyasetz/ros2/build/trackinghead -- -j8 -l8
+[13.744s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/yahyasetz/ros2/build/trackinghead': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/foxy /usr/bin/cmake --install /home/yahyasetz/ros2/build/trackinghead
+[13.765s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(trackinghead)
+[13.768s] Level 1:colcon.colcon_core.environment:checking '/home/yahyasetz/ros2/install/trackinghead' for CMake module files
+[13.769s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/yahyasetz/ros2/build/trackinghead' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/foxy /usr/bin/cmake --install /home/yahyasetz/ros2/build/trackinghead
+[13.770s] Level 1:colcon.colcon_core.environment:checking '/home/yahyasetz/ros2/install/trackinghead' for CMake config files
+[13.770s] Level 1:colcon.colcon_core.shell:create_environment_hook('trackinghead', 'cmake_prefix_path')
+[13.772s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/yahyasetz/ros2/install/trackinghead/share/trackinghead/hook/cmake_prefix_path.ps1'
+[13.773s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/yahyasetz/ros2/install/trackinghead/share/trackinghead/hook/cmake_prefix_path.dsv'
+[13.773s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/yahyasetz/ros2/install/trackinghead/share/trackinghead/hook/cmake_prefix_path.sh'
+[13.774s] Level 1:colcon.colcon_core.environment:checking '/home/yahyasetz/ros2/install/trackinghead/lib'
+[13.774s] Level 1:colcon.colcon_core.environment:checking '/home/yahyasetz/ros2/install/trackinghead/bin'
+[13.774s] Level 1:colcon.colcon_core.environment:checking '/home/yahyasetz/ros2/install/trackinghead/lib/pkgconfig/trackinghead.pc'
+[13.775s] Level 1:colcon.colcon_core.environment:checking '/home/yahyasetz/ros2/install/trackinghead/lib/python3.8/site-packages'
+[13.775s] Level 1:colcon.colcon_core.environment:checking '/home/yahyasetz/ros2/install/trackinghead/bin'
+[13.777s] INFO:colcon.colcon_core.shell:Creating package script '/home/yahyasetz/ros2/install/trackinghead/share/trackinghead/package.ps1'
+[13.778s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/yahyasetz/ros2/install/trackinghead/share/trackinghead/package.dsv'
+[13.778s] INFO:colcon.colcon_core.shell:Creating package script '/home/yahyasetz/ros2/install/trackinghead/share/trackinghead/package.sh'
+[13.779s] INFO:colcon.colcon_core.shell:Creating package script '/home/yahyasetz/ros2/install/trackinghead/share/trackinghead/package.bash'
+[13.779s] INFO:colcon.colcon_core.shell:Creating package script '/home/yahyasetz/ros2/install/trackinghead/share/trackinghead/package.zsh'
+[13.780s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/yahyasetz/ros2/install/trackinghead/share/colcon-core/packages/trackinghead)
+[13.818s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(trackinghead)
+[13.821s] Level 1:colcon.colcon_core.environment:checking '/home/yahyasetz/ros2/install/trackinghead' for CMake module files
+[13.822s] Level 1:colcon.colcon_core.environment:checking '/home/yahyasetz/ros2/install/trackinghead' for CMake config files
+[13.822s] Level 1:colcon.colcon_core.shell:create_environment_hook('trackinghead', 'cmake_prefix_path')
+[13.824s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/yahyasetz/ros2/install/trackinghead/share/trackinghead/hook/cmake_prefix_path.ps1'
+[13.825s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/yahyasetz/ros2/install/trackinghead/share/trackinghead/hook/cmake_prefix_path.dsv'
+[13.825s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/yahyasetz/ros2/install/trackinghead/share/trackinghead/hook/cmake_prefix_path.sh'
+[13.826s] Level 1:colcon.colcon_core.environment:checking '/home/yahyasetz/ros2/install/trackinghead/lib'
+[13.826s] Level 1:colcon.colcon_core.environment:checking '/home/yahyasetz/ros2/install/trackinghead/bin'
+[13.826s] Level 1:colcon.colcon_core.environment:checking '/home/yahyasetz/ros2/install/trackinghead/lib/pkgconfig/trackinghead.pc'
+[13.827s] Level 1:colcon.colcon_core.environment:checking '/home/yahyasetz/ros2/install/trackinghead/lib/python3.8/site-packages'
+[13.827s] Level 1:colcon.colcon_core.environment:checking '/home/yahyasetz/ros2/install/trackinghead/bin'
+[13.829s] INFO:colcon.colcon_core.shell:Creating package script '/home/yahyasetz/ros2/install/trackinghead/share/trackinghead/package.ps1'
+[13.830s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/yahyasetz/ros2/install/trackinghead/share/trackinghead/package.dsv'
+[13.830s] INFO:colcon.colcon_core.shell:Creating package script '/home/yahyasetz/ros2/install/trackinghead/share/trackinghead/package.sh'
+[13.831s] INFO:colcon.colcon_core.shell:Creating package script '/home/yahyasetz/ros2/install/trackinghead/share/trackinghead/package.bash'
+[13.831s] INFO:colcon.colcon_core.shell:Creating package script '/home/yahyasetz/ros2/install/trackinghead/share/trackinghead/package.zsh'
+[13.832s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/yahyasetz/ros2/install/trackinghead/share/colcon-core/packages/trackinghead)
+[13.832s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:closing loop
+[13.833s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:loop closed
+[13.833s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:run_until_complete finished with '0'
+[13.833s] DEBUG:colcon.colcon_core.event_reactor:joining thread
+[13.843s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_notification.desktop_notification.terminal_notifier': Not used on non-Darwin systems
+[13.843s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_notification.desktop_notification.win32': Not used on non-Windows systems
+[13.843s] INFO:colcon.colcon_notification.desktop_notification:Sending desktop notification using 'notify2'
+[13.867s] DEBUG:colcon.colcon_core.event_reactor:joined thread
+[13.871s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/yahyasetz/ros2/install/local_setup.ps1'
+[13.872s] INFO:colcon.colcon_core.shell:Creating prefix util module '/home/yahyasetz/ros2/install/_local_setup_util_ps1.py'
+[13.876s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/yahyasetz/ros2/install/setup.ps1'
+[13.879s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/yahyasetz/ros2/install/local_setup.sh'
+[13.880s] INFO:colcon.colcon_core.shell:Creating prefix util module '/home/yahyasetz/ros2/install/_local_setup_util_sh.py'
+[13.880s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/yahyasetz/ros2/install/setup.sh'
+[13.882s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/yahyasetz/ros2/install/local_setup.bash'
+[13.883s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/yahyasetz/ros2/install/setup.bash'
+[13.885s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/yahyasetz/ros2/install/local_setup.zsh'
+[13.886s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/yahyasetz/ros2/install/setup.zsh'

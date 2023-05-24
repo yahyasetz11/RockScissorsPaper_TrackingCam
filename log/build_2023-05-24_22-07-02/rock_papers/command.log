@@ -1,0 +1,6 @@
+Invoking command in '/home/yahyasetz/ros2/build/rock_papers': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/foxy /usr/bin/cmake /home/yahyasetz/ros2/src/rock_papers -DCMAKE_INSTALL_PREFIX=/home/yahyasetz/ros2/install/rock_papers
+Invoked command in '/home/yahyasetz/ros2/build/rock_papers' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/foxy /usr/bin/cmake /home/yahyasetz/ros2/src/rock_papers -DCMAKE_INSTALL_PREFIX=/home/yahyasetz/ros2/install/rock_papers
+Invoking command in '/home/yahyasetz/ros2/build/rock_papers': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/foxy /usr/bin/cmake --build /home/yahyasetz/ros2/build/rock_papers -- -j8 -l8
+Invoked command in '/home/yahyasetz/ros2/build/rock_papers' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/foxy /usr/bin/cmake --build /home/yahyasetz/ros2/build/rock_papers -- -j8 -l8
+Invoking command in '/home/yahyasetz/ros2/build/rock_papers': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/foxy /usr/bin/cmake --install /home/yahyasetz/ros2/build/rock_papers
+Invoked command in '/home/yahyasetz/ros2/build/rock_papers' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/foxy /usr/bin/cmake --install /home/yahyasetz/ros2/build/rock_papers

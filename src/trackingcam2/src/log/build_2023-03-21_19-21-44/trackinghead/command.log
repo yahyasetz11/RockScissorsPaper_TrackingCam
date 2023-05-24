@@ -1,0 +1,2 @@
+Invoking command in '/home/yahyasetz/ros2/trackingcam2/src/build/trackinghead': CMAKE_PREFIX_PATH=/opt/ros/foxy /usr/bin/cmake --build /home/yahyasetz/ros2/trackingcam2/src/build/trackinghead -- -j8 -l8
+Invoked command in '/home/yahyasetz/ros2/trackingcam2/src/build/trackinghead' returned '2': CMAKE_PREFIX_PATH=/opt/ros/foxy /usr/bin/cmake --build /home/yahyasetz/ros2/trackingcam2/src/build/trackinghead -- -j8 -l8

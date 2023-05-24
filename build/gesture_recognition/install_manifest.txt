@@ -1,0 +1,16 @@
+/home/yahyasetz/ros2/install/gesture_recognition/lib/gesture_recognition/gestureCam
+/home/yahyasetz/ros2/install/gesture_recognition/share/ament_index/resource_index/package_run_dependencies/gesture_recognition
+/home/yahyasetz/ros2/install/gesture_recognition/share/ament_index/resource_index/parent_prefix_path/gesture_recognition
+/home/yahyasetz/ros2/install/gesture_recognition/share/gesture_recognition/environment/ament_prefix_path.sh
+/home/yahyasetz/ros2/install/gesture_recognition/share/gesture_recognition/environment/ament_prefix_path.dsv
+/home/yahyasetz/ros2/install/gesture_recognition/share/gesture_recognition/environment/path.sh
+/home/yahyasetz/ros2/install/gesture_recognition/share/gesture_recognition/environment/path.dsv
+/home/yahyasetz/ros2/install/gesture_recognition/share/gesture_recognition/local_setup.bash
+/home/yahyasetz/ros2/install/gesture_recognition/share/gesture_recognition/local_setup.sh
+/home/yahyasetz/ros2/install/gesture_recognition/share/gesture_recognition/local_setup.zsh
+/home/yahyasetz/ros2/install/gesture_recognition/share/gesture_recognition/local_setup.dsv
+/home/yahyasetz/ros2/install/gesture_recognition/share/gesture_recognition/package.dsv
+/home/yahyasetz/ros2/install/gesture_recognition/share/ament_index/resource_index/packages/gesture_recognition
+/home/yahyasetz/ros2/install/gesture_recognition/share/gesture_recognition/cmake/gesture_recognitionConfig.cmake
+/home/yahyasetz/ros2/install/gesture_recognition/share/gesture_recognition/cmake/gesture_recognitionConfig-version.cmake
+/home/yahyasetz/ros2/install/gesture_recognition/share/gesture_recognition/package.xml

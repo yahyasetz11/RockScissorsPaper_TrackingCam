@@ -1,0 +1,11 @@
+[0.023s] Invoking command in '/home/yahyasetz/ros2/trackingcam2/src/build/trackinghead': CMAKE_PREFIX_PATH=/opt/ros/foxy /usr/bin/cmake --build /home/yahyasetz/ros2/trackingcam2/src/build/trackinghead -- -j8 -l8
+[0.083s] [35m[1mScanning dependencies of target head[0m
+[0.215s] [ 50%] [32mBuilding CXX object CMakeFiles/head.dir/src/main.cpp.o[0m
+[0.478s] [01m[K/home/yahyasetz/ros2/trackingcam2/src/trackinghead/src/main.cpp:3:10:[m[K [01;31m[Kfatal error: [m[Ksensor_msgs/image.hpp: No such file or directory
+[0.478s]     3 | #include [01;31m[K<sensor_msgs/image.hpp>[m[K
+[0.478s]       |          [01;31m[K^~~~~~~~~~~~~~~~~~~~~~~[m[K
+[0.479s] compilation terminated.
+[0.484s] make[2]: *** [CMakeFiles/head.dir/build.make:63: CMakeFiles/head.dir/src/main.cpp.o] Error 1
+[0.484s] make[1]: *** [CMakeFiles/Makefile2:78: CMakeFiles/head.dir/all] Error 2
+[0.485s] make: *** [Makefile:141: all] Error 2
+[0.489s] Invoked command in '/home/yahyasetz/ros2/trackingcam2/src/build/trackinghead' returned '2': CMAKE_PREFIX_PATH=/opt/ros/foxy /usr/bin/cmake --build /home/yahyasetz/ros2/trackingcam2/src/build/trackinghead -- -j8 -l8

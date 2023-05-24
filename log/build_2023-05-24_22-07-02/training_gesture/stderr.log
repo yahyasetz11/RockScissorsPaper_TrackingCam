@@ -1,0 +1,9 @@
+In file included from [01m[K/usr/local/include/opencv4/opencv2/core/vsx_utils.hpp:11[m[K,
+                 from [01m[K/usr/local/include/opencv4/opencv2/core/base.hpp:661[m[K,
+                 from [01m[K/usr/local/include/opencv4/opencv2/core.hpp:53[m[K,
+                 from [01m[K/usr/local/include/opencv4/opencv2/opencv.hpp:52[m[K,
+                 from [01m[K/home/yahyasetz/ros2/src/training_gesture/src/training.cpp:1[m[K:
+[01m[K/home/yahyasetz/ros2/src/training_gesture/src/training.cpp:[m[K In function ‘[01m[Kint main()[m[K’:
+[01m[K/home/yahyasetz/ros2/src/training_gesture/src/training.cpp:68:28:[m[K [01;35m[Kwarning: [m[Kcomparison of integer expressions of different signedness: ‘[01m[Kint[m[K’ and ‘[01m[Ksize_t[m[K’ {aka ‘[01m[Klong unsigned int[m[K’} [[01;35m[K-Wsign-compare[m[K]
+   68 |     assert([01;35m[Ktrain_data.rows == train_labels.total()[m[K);
+      |            [01;35m[K~~~~~~~~~~~~~~~~^~~~~~~~~~~~~~~~~~~~~~~[m[K

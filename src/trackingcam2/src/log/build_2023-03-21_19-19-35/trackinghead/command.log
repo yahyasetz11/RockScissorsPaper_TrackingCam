@@ -1,0 +1,2 @@
+Invoking command in '/home/yahyasetz/ros2/trackingcam2/src/build/trackinghead': CMAKE_PREFIX_PATH=/opt/ros/foxy /usr/bin/cmake /home/yahyasetz/ros2/trackingcam2/src/trackinghead -DCMAKE_INSTALL_PREFIX=/home/yahyasetz/ros2/trackingcam2/src/install/trackinghead
+Invoked command in '/home/yahyasetz/ros2/trackingcam2/src/build/trackinghead' returned '1': CMAKE_PREFIX_PATH=/opt/ros/foxy /usr/bin/cmake /home/yahyasetz/ros2/trackingcam2/src/trackinghead -DCMAKE_INSTALL_PREFIX=/home/yahyasetz/ros2/trackingcam2/src/install/trackinghead

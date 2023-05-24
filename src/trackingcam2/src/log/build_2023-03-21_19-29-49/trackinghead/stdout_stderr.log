@@ -1,0 +1,24 @@
+[35m[1mScanning dependencies of target head[0m
+[ 50%] [32mBuilding CXX object CMakeFiles/head.dir/src/main.cpp.o[0m
+[100%] [32m[1mLinking CXX executable head[0m
+/usr/bin/ld: warning: libopencv_imgproc.so.4.2, needed by /opt/ros/foxy/lib/libcv_bridge.so, may conflict with libopencv_imgproc.so.407
+/usr/bin/ld: warning: libopencv_core.so.4.2, needed by /opt/ros/foxy/lib/libcv_bridge.so, may conflict with libopencv_core.so.407
+[100%] Built target head
+-- Install configuration: ""
+-- Installing: /home/yahyasetz/ros2/trackingcam2/src/install/trackinghead/lib/trackinghead/head
+-- Set runtime path of "/home/yahyasetz/ros2/trackingcam2/src/install/trackinghead/lib/trackinghead/head" to ""
+-- Up-to-date: /home/yahyasetz/ros2/trackingcam2/src/install/trackinghead/share/ament_index/resource_index/package_run_dependencies/trackinghead
+-- Up-to-date: /home/yahyasetz/ros2/trackingcam2/src/install/trackinghead/share/ament_index/resource_index/parent_prefix_path/trackinghead
+-- Up-to-date: /home/yahyasetz/ros2/trackingcam2/src/install/trackinghead/share/trackinghead/environment/ament_prefix_path.sh
+-- Up-to-date: /home/yahyasetz/ros2/trackingcam2/src/install/trackinghead/share/trackinghead/environment/ament_prefix_path.dsv
+-- Up-to-date: /home/yahyasetz/ros2/trackingcam2/src/install/trackinghead/share/trackinghead/environment/path.sh
+-- Up-to-date: /home/yahyasetz/ros2/trackingcam2/src/install/trackinghead/share/trackinghead/environment/path.dsv
+-- Up-to-date: /home/yahyasetz/ros2/trackingcam2/src/install/trackinghead/share/trackinghead/local_setup.bash
+-- Up-to-date: /home/yahyasetz/ros2/trackingcam2/src/install/trackinghead/share/trackinghead/local_setup.sh
+-- Up-to-date: /home/yahyasetz/ros2/trackingcam2/src/install/trackinghead/share/trackinghead/local_setup.zsh
+-- Up-to-date: /home/yahyasetz/ros2/trackingcam2/src/install/trackinghead/share/trackinghead/local_setup.dsv
+-- Installing: /home/yahyasetz/ros2/trackingcam2/src/install/trackinghead/share/trackinghead/package.dsv
+-- Up-to-date: /home/yahyasetz/ros2/trackingcam2/src/install/trackinghead/share/ament_index/resource_index/packages/trackinghead
+-- Up-to-date: /home/yahyasetz/ros2/trackingcam2/src/install/trackinghead/share/trackinghead/cmake/trackingheadConfig.cmake
+-- Up-to-date: /home/yahyasetz/ros2/trackingcam2/src/install/trackinghead/share/trackinghead/cmake/trackingheadConfig-version.cmake
+-- Up-to-date: /home/yahyasetz/ros2/trackingcam2/src/install/trackinghead/share/trackinghead/package.xml

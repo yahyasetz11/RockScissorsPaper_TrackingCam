@@ -1,0 +1,8 @@
+source;share/opencamera/hook/cmake_prefix_path.ps1
+source;share/opencamera/hook/cmake_prefix_path.dsv
+source;share/opencamera/hook/cmake_prefix_path.sh
+source;share/opencamera/local_setup.bash
+source;share/opencamera/local_setup.dsv
+source;share/opencamera/local_setup.ps1
+source;share/opencamera/local_setup.sh
+source;share/opencamera/local_setup.zsh

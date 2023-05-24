@@ -1,0 +1,78 @@
+[0.078s] Invoking command in '/home/yahyasetz/ros2/build/opencamera': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/foxy /usr/bin/cmake /home/yahyasetz/ros2/src/opencamera -DCMAKE_INSTALL_PREFIX=/home/yahyasetz/ros2/install/opencamera
+[0.187s] -- The C compiler identification is GNU 9.4.0
+[0.315s] -- The CXX compiler identification is GNU 9.4.0
+[0.323s] -- Check for working C compiler: /usr/bin/cc
+[0.474s] -- Check for working C compiler: /usr/bin/cc -- works
+[0.475s] -- Detecting C compiler ABI info
+[0.631s] -- Detecting C compiler ABI info - done
+[0.658s] -- Detecting C compile features
+[0.659s] -- Detecting C compile features - done
+[0.663s] -- Check for working CXX compiler: /usr/bin/c++
+[0.829s] -- Check for working CXX compiler: /usr/bin/c++ -- works
+[0.830s] -- Detecting CXX compiler ABI info
+[0.990s] -- Detecting CXX compiler ABI info - done
+[1.038s] -- Detecting CXX compile features
+[1.040s] -- Detecting CXX compile features - done
+[1.047s] -- Found ament_cmake: 0.9.11 (/opt/ros/foxy/share/ament_cmake/cmake)
+[1.103s] -- Found PythonInterp: /usr/bin/python3 (found suitable version "3.8.10", minimum required is "3") 
+[1.103s] -- Using PYTHON_EXECUTABLE: /usr/bin/python3
+[1.614s] -- Found OpenCV: /usr/local (found version "4.7.0") 
+[1.617s] -- Found rclcpp: 2.4.2 (/opt/ros/foxy/share/rclcpp/cmake)
+[1.724s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[1.737s] -- Found rosidl_adapter: 1.3.0 (/opt/ros/foxy/share/rosidl_adapter/cmake)
+[1.901s] -- Found OpenSSL: /usr/lib/x86_64-linux-gnu/libcrypto.so (found version "1.1.1f")  
+[1.952s] -- Found FastRTPS: /opt/ros/foxy/include  
+[2.126s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[2.277s] -- Found rmw_implementation_cmake: 1.0.4 (/opt/ros/foxy/share/rmw_implementation_cmake/cmake)
+[2.279s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[2.281s] -- Looking for pthread.h
+[2.440s] -- Looking for pthread.h - found
+[2.440s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD
+[2.581s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD - Failed
+[2.582s] -- Looking for pthread_create in pthreads
+[2.724s] -- Looking for pthread_create in pthreads - not found
+[2.724s] -- Looking for pthread_create in pthread
+[2.862s] -- Looking for pthread_create in pthread - found
+[2.865s] -- Found Threads: TRUE  
+[3.297s] -- Found sensor_msgs: 2.0.5 (/opt/ros/foxy/share/sensor_msgs/cmake)
+[3.642s] -- Found ament_lint_auto: 0.9.8 (/opt/ros/foxy/share/ament_lint_auto/cmake)
+[3.816s] -- Added test 'copyright' to check source files copyright and LICENSE
+[3.818s] -- Added test 'cppcheck' to perform static code analysis on C / C++ code
+[3.818s] -- Configured cppcheck include dirs: 
+[3.818s] -- Configured cppcheck exclude dirs and/or files: 
+[3.820s] -- Added test 'cpplint' to check C / C++ code against the Google style
+[3.821s] -- Configured cpplint exclude dirs and/or files: 
+[3.822s] -- Added test 'lint_cmake' to check CMake code style
+[3.824s] -- Added test 'uncrustify' to check C / C++ code style
+[3.824s] -- Configured uncrustify additional arguments: 
+[3.825s] -- Added test 'xmllint' to check XML markup files
+[3.831s] -- Configuring done
+[3.870s] -- Generating done
+[3.875s] -- Build files have been written to: /home/yahyasetz/ros2/build/opencamera
+[3.894s] Invoked command in '/home/yahyasetz/ros2/build/opencamera' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/foxy /usr/bin/cmake /home/yahyasetz/ros2/src/opencamera -DCMAKE_INSTALL_PREFIX=/home/yahyasetz/ros2/install/opencamera
+[3.901s] Invoking command in '/home/yahyasetz/ros2/build/opencamera': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/foxy /usr/bin/cmake --build /home/yahyasetz/ros2/build/opencamera -- -j8 -l8
+[3.978s] [35m[1mScanning dependencies of target main[0m
+[4.101s] [ 50%] [32mBuilding CXX object CMakeFiles/main.dir/src/main.cpp.o[0m
+[10.100s] [100%] [32m[1mLinking CXX executable main[0m
+[10.531s] [100%] Built target main
+[10.549s] Invoked command in '/home/yahyasetz/ros2/build/opencamera' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/foxy /usr/bin/cmake --build /home/yahyasetz/ros2/build/opencamera -- -j8 -l8
+[10.591s] Invoking command in '/home/yahyasetz/ros2/build/opencamera': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/foxy /usr/bin/cmake --install /home/yahyasetz/ros2/build/opencamera
+[10.605s] -- Install configuration: ""
+[10.605s] -- Installing: /home/yahyasetz/ros2/install/opencamera/libopencamera/main
+[10.606s] -- Set runtime path of "/home/yahyasetz/ros2/install/opencamera/libopencamera/main" to ""
+[10.606s] -- Installing: /home/yahyasetz/ros2/install/opencamera/share/ament_index/resource_index/package_run_dependencies/opencamera
+[10.607s] -- Installing: /home/yahyasetz/ros2/install/opencamera/share/ament_index/resource_index/parent_prefix_path/opencamera
+[10.607s] -- Installing: /home/yahyasetz/ros2/install/opencamera/share/opencamera/environment/ament_prefix_path.sh
+[10.607s] -- Installing: /home/yahyasetz/ros2/install/opencamera/share/opencamera/environment/ament_prefix_path.dsv
+[10.608s] -- Installing: /home/yahyasetz/ros2/install/opencamera/share/opencamera/environment/path.sh
+[10.608s] -- Installing: /home/yahyasetz/ros2/install/opencamera/share/opencamera/environment/path.dsv
+[10.608s] -- Installing: /home/yahyasetz/ros2/install/opencamera/share/opencamera/local_setup.bash
+[10.609s] -- Installing: /home/yahyasetz/ros2/install/opencamera/share/opencamera/local_setup.sh
+[10.609s] -- Installing: /home/yahyasetz/ros2/install/opencamera/share/opencamera/local_setup.zsh
+[10.609s] -- Installing: /home/yahyasetz/ros2/install/opencamera/share/opencamera/local_setup.dsv
+[10.609s] -- Installing: /home/yahyasetz/ros2/install/opencamera/share/opencamera/package.dsv
+[10.610s] -- Installing: /home/yahyasetz/ros2/install/opencamera/share/ament_index/resource_index/packages/opencamera
+[10.610s] -- Installing: /home/yahyasetz/ros2/install/opencamera/share/opencamera/cmake/opencameraConfig.cmake
+[10.611s] -- Installing: /home/yahyasetz/ros2/install/opencamera/share/opencamera/cmake/opencameraConfig-version.cmake
+[10.611s] -- Installing: /home/yahyasetz/ros2/install/opencamera/share/opencamera/package.xml
+[10.618s] Invoked command in '/home/yahyasetz/ros2/build/opencamera' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/foxy /usr/bin/cmake --install /home/yahyasetz/ros2/build/opencamera

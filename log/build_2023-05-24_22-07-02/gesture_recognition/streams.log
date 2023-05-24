@@ -1,0 +1,60 @@
+[0.083s] Invoking command in '/home/yahyasetz/ros2/build/gesture_recognition': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/foxy /usr/bin/cmake /home/yahyasetz/ros2/src/gesture_recognition -DCMAKE_INSTALL_PREFIX=/home/yahyasetz/ros2/install/gesture_recognition
+[0.214s] -- The C compiler identification is GNU 9.4.0
+[0.346s] -- The CXX compiler identification is GNU 9.4.0
+[0.357s] -- Check for working C compiler: /usr/bin/cc
+[0.497s] -- Check for working C compiler: /usr/bin/cc -- works
+[0.498s] -- Detecting C compiler ABI info
+[0.646s] -- Detecting C compiler ABI info - done
+[0.668s] -- Detecting C compile features
+[0.668s] -- Detecting C compile features - done
+[0.672s] -- Check for working CXX compiler: /usr/bin/c++
+[0.829s] -- Check for working CXX compiler: /usr/bin/c++ -- works
+[0.831s] -- Detecting CXX compiler ABI info
+[0.995s] -- Detecting CXX compiler ABI info - done
+[1.030s] -- Detecting CXX compile features
+[1.034s] -- Detecting CXX compile features - done
+[1.038s] -- Found ament_cmake: 0.9.11 (/opt/ros/foxy/share/ament_cmake/cmake)
+[1.099s] -- Found PythonInterp: /usr/bin/python3 (found suitable version "3.8.10", minimum required is "3") 
+[1.099s] -- Using PYTHON_EXECUTABLE: /usr/bin/python3
+[1.593s] -- Found OpenCV: /usr/local (found version "4.7.0") 
+[1.596s] -- Found ament_lint_auto: 0.9.8 (/opt/ros/foxy/share/ament_lint_auto/cmake)
+[1.773s] -- Added test 'copyright' to check source files copyright and LICENSE
+[1.775s] -- Added test 'cppcheck' to perform static code analysis on C / C++ code
+[1.776s] -- Configured cppcheck include dirs: 
+[1.776s] -- Configured cppcheck exclude dirs and/or files: 
+[1.777s] -- Added test 'cpplint' to check C / C++ code against the Google style
+[1.777s] -- Configured cpplint exclude dirs and/or files: 
+[1.779s] -- Added test 'lint_cmake' to check CMake code style
+[1.781s] -- Added test 'uncrustify' to check C / C++ code style
+[1.781s] -- Configured uncrustify additional arguments: 
+[1.782s] -- Added test 'xmllint' to check XML markup files
+[1.787s] -- Configuring done
+[1.798s] -- Generating done
+[1.802s] -- Build files have been written to: /home/yahyasetz/ros2/build/gesture_recognition
+[1.817s] Invoked command in '/home/yahyasetz/ros2/build/gesture_recognition' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/foxy /usr/bin/cmake /home/yahyasetz/ros2/src/gesture_recognition -DCMAKE_INSTALL_PREFIX=/home/yahyasetz/ros2/install/gesture_recognition
+[1.819s] Invoking command in '/home/yahyasetz/ros2/build/gesture_recognition': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/foxy /usr/bin/cmake --build /home/yahyasetz/ros2/build/gesture_recognition -- -j8 -l8
+[1.895s] [35m[1mScanning dependencies of target gestureCam[0m
+[1.988s] [ 50%] [32mBuilding CXX object CMakeFiles/gestureCam.dir/src/gesture_recognition.cpp.o[0m
+[5.704s] [100%] [32m[1mLinking CXX executable gestureCam[0m
+[6.332s] [100%] Built target gestureCam
+[6.358s] Invoked command in '/home/yahyasetz/ros2/build/gesture_recognition' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/foxy /usr/bin/cmake --build /home/yahyasetz/ros2/build/gesture_recognition -- -j8 -l8
+[6.429s] Invoking command in '/home/yahyasetz/ros2/build/gesture_recognition': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/foxy /usr/bin/cmake --install /home/yahyasetz/ros2/build/gesture_recognition
+[6.442s] -- Install configuration: ""
+[6.443s] -- Installing: /home/yahyasetz/ros2/install/gesture_recognition/lib/gesture_recognition/gestureCam
+[6.443s] -- Set runtime path of "/home/yahyasetz/ros2/install/gesture_recognition/lib/gesture_recognition/gestureCam" to ""
+[6.444s] -- Installing: /home/yahyasetz/ros2/install/gesture_recognition/share/ament_index/resource_index/package_run_dependencies/gesture_recognition
+[6.445s] -- Installing: /home/yahyasetz/ros2/install/gesture_recognition/share/ament_index/resource_index/parent_prefix_path/gesture_recognition
+[6.445s] -- Installing: /home/yahyasetz/ros2/install/gesture_recognition/share/gesture_recognition/environment/ament_prefix_path.sh
+[6.446s] -- Installing: /home/yahyasetz/ros2/install/gesture_recognition/share/gesture_recognition/environment/ament_prefix_path.dsv
+[6.446s] -- Installing: /home/yahyasetz/ros2/install/gesture_recognition/share/gesture_recognition/environment/path.sh
+[6.446s] -- Installing: /home/yahyasetz/ros2/install/gesture_recognition/share/gesture_recognition/environment/path.dsv
+[6.446s] -- Installing: /home/yahyasetz/ros2/install/gesture_recognition/share/gesture_recognition/local_setup.bash
+[6.447s] -- Installing: /home/yahyasetz/ros2/install/gesture_recognition/share/gesture_recognition/local_setup.sh
+[6.447s] -- Installing: /home/yahyasetz/ros2/install/gesture_recognition/share/gesture_recognition/local_setup.zsh
+[6.447s] -- Installing: /home/yahyasetz/ros2/install/gesture_recognition/share/gesture_recognition/local_setup.dsv
+[6.448s] -- Installing: /home/yahyasetz/ros2/install/gesture_recognition/share/gesture_recognition/package.dsv
+[6.451s] -- Installing: /home/yahyasetz/ros2/install/gesture_recognition/share/ament_index/resource_index/packages/gesture_recognition
+[6.452s] -- Installing: /home/yahyasetz/ros2/install/gesture_recognition/share/gesture_recognition/cmake/gesture_recognitionConfig.cmake
+[6.453s] -- Installing: /home/yahyasetz/ros2/install/gesture_recognition/share/gesture_recognition/cmake/gesture_recognitionConfig-version.cmake
+[6.453s] -- Installing: /home/yahyasetz/ros2/install/gesture_recognition/share/gesture_recognition/package.xml
+[6.481s] Invoked command in '/home/yahyasetz/ros2/build/gesture_recognition' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/foxy /usr/bin/cmake --install /home/yahyasetz/ros2/build/gesture_recognition

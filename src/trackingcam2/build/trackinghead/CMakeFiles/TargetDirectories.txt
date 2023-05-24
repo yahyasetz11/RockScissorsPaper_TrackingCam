@@ -1,0 +1,10 @@
+/home/yahyasetz/ros2/trackingcam2/build/trackinghead/CMakeFiles/install/strip.dir
+/home/yahyasetz/ros2/trackingcam2/build/trackinghead/CMakeFiles/install/local.dir
+/home/yahyasetz/ros2/trackingcam2/build/trackinghead/CMakeFiles/edit_cache.dir
+/home/yahyasetz/ros2/trackingcam2/build/trackinghead/CMakeFiles/test.dir
+/home/yahyasetz/ros2/trackingcam2/build/trackinghead/CMakeFiles/install.dir
+/home/yahyasetz/ros2/trackingcam2/build/trackinghead/CMakeFiles/list_install_components.dir
+/home/yahyasetz/ros2/trackingcam2/build/trackinghead/CMakeFiles/rebuild_cache.dir
+/home/yahyasetz/ros2/trackingcam2/build/trackinghead/CMakeFiles/head.dir
+/home/yahyasetz/ros2/trackingcam2/build/trackinghead/CMakeFiles/trackinghead_uninstall.dir
+/home/yahyasetz/ros2/trackingcam2/build/trackinghead/CMakeFiles/uninstall.dir

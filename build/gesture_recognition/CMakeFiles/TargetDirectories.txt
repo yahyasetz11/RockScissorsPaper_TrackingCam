@@ -1,0 +1,10 @@
+/home/yahyasetz/ros2/build/gesture_recognition/CMakeFiles/install/strip.dir
+/home/yahyasetz/ros2/build/gesture_recognition/CMakeFiles/install/local.dir
+/home/yahyasetz/ros2/build/gesture_recognition/CMakeFiles/install.dir
+/home/yahyasetz/ros2/build/gesture_recognition/CMakeFiles/list_install_components.dir
+/home/yahyasetz/ros2/build/gesture_recognition/CMakeFiles/rebuild_cache.dir
+/home/yahyasetz/ros2/build/gesture_recognition/CMakeFiles/edit_cache.dir
+/home/yahyasetz/ros2/build/gesture_recognition/CMakeFiles/test.dir
+/home/yahyasetz/ros2/build/gesture_recognition/CMakeFiles/gestureCam.dir
+/home/yahyasetz/ros2/build/gesture_recognition/CMakeFiles/gesture_recognition_uninstall.dir
+/home/yahyasetz/ros2/build/gesture_recognition/CMakeFiles/uninstall.dir

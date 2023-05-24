@@ -1,0 +1,6 @@
+Invoking command in '/home/yahyasetz/ros2/build/gesture_recognition': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/foxy /usr/bin/cmake /home/yahyasetz/ros2/src/gesture_recognition -DCMAKE_INSTALL_PREFIX=/home/yahyasetz/ros2/install/gesture_recognition
+Invoked command in '/home/yahyasetz/ros2/build/gesture_recognition' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/foxy /usr/bin/cmake /home/yahyasetz/ros2/src/gesture_recognition -DCMAKE_INSTALL_PREFIX=/home/yahyasetz/ros2/install/gesture_recognition
+Invoking command in '/home/yahyasetz/ros2/build/gesture_recognition': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/foxy /usr/bin/cmake --build /home/yahyasetz/ros2/build/gesture_recognition -- -j8 -l8
+Invoked command in '/home/yahyasetz/ros2/build/gesture_recognition' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/foxy /usr/bin/cmake --build /home/yahyasetz/ros2/build/gesture_recognition -- -j8 -l8
+Invoking command in '/home/yahyasetz/ros2/build/gesture_recognition': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/foxy /usr/bin/cmake --install /home/yahyasetz/ros2/build/gesture_recognition
+Invoked command in '/home/yahyasetz/ros2/build/gesture_recognition' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/foxy /usr/bin/cmake --install /home/yahyasetz/ros2/build/gesture_recognition

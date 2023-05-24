@@ -1,0 +1,6 @@
+Invoking command in '/home/yahyasetz/ros2/trackingcam2/build/trackinghead': CMAKE_PREFIX_PATH=/opt/ros/foxy /usr/bin/cmake /home/yahyasetz/ros2/trackingcam2/src/trackinghead -DCMAKE_INSTALL_PREFIX=/home/yahyasetz/ros2/trackingcam2/install/trackinghead
+Invoked command in '/home/yahyasetz/ros2/trackingcam2/build/trackinghead' returned '0': CMAKE_PREFIX_PATH=/opt/ros/foxy /usr/bin/cmake /home/yahyasetz/ros2/trackingcam2/src/trackinghead -DCMAKE_INSTALL_PREFIX=/home/yahyasetz/ros2/trackingcam2/install/trackinghead
+Invoking command in '/home/yahyasetz/ros2/trackingcam2/build/trackinghead': CMAKE_PREFIX_PATH=/opt/ros/foxy /usr/bin/cmake --build /home/yahyasetz/ros2/trackingcam2/build/trackinghead -- -j8 -l8
+Invoked command in '/home/yahyasetz/ros2/trackingcam2/build/trackinghead' returned '0': CMAKE_PREFIX_PATH=/opt/ros/foxy /usr/bin/cmake --build /home/yahyasetz/ros2/trackingcam2/build/trackinghead -- -j8 -l8
+Invoking command in '/home/yahyasetz/ros2/trackingcam2/build/trackinghead': CMAKE_PREFIX_PATH=/opt/ros/foxy /usr/bin/cmake --install /home/yahyasetz/ros2/trackingcam2/build/trackinghead
+Invoked command in '/home/yahyasetz/ros2/trackingcam2/build/trackinghead' returned '0': CMAKE_PREFIX_PATH=/opt/ros/foxy /usr/bin/cmake --install /home/yahyasetz/ros2/trackingcam2/build/trackinghead

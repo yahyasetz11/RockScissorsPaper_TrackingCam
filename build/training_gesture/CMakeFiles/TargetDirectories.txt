@@ -1,0 +1,10 @@
+/home/yahyasetz/ros2/build/training_gesture/CMakeFiles/install/strip.dir
+/home/yahyasetz/ros2/build/training_gesture/CMakeFiles/install/local.dir
+/home/yahyasetz/ros2/build/training_gesture/CMakeFiles/install.dir
+/home/yahyasetz/ros2/build/training_gesture/CMakeFiles/list_install_components.dir
+/home/yahyasetz/ros2/build/training_gesture/CMakeFiles/rebuild_cache.dir
+/home/yahyasetz/ros2/build/training_gesture/CMakeFiles/edit_cache.dir
+/home/yahyasetz/ros2/build/training_gesture/CMakeFiles/test.dir
+/home/yahyasetz/ros2/build/training_gesture/CMakeFiles/training.dir
+/home/yahyasetz/ros2/build/training_gesture/CMakeFiles/training_gesture_uninstall.dir
+/home/yahyasetz/ros2/build/training_gesture/CMakeFiles/uninstall.dir

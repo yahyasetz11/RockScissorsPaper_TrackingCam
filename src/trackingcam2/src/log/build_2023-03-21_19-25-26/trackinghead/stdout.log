@@ -1,0 +1,22 @@
+[35m[1mScanning dependencies of target head[0m
+[ 50%] [32mBuilding CXX object CMakeFiles/head.dir/src/main.cpp.o[0m
+[100%] [32m[1mLinking CXX executable head[0m
+[100%] Built target head
+-- Install configuration: ""
+-- Installing: /home/yahyasetz/ros2/trackingcam2/src/install/trackinghead/lib/trackinghead/head
+-- Set runtime path of "/home/yahyasetz/ros2/trackingcam2/src/install/trackinghead/lib/trackinghead/head" to ""
+-- Installing: /home/yahyasetz/ros2/trackingcam2/src/install/trackinghead/share/ament_index/resource_index/package_run_dependencies/trackinghead
+-- Installing: /home/yahyasetz/ros2/trackingcam2/src/install/trackinghead/share/ament_index/resource_index/parent_prefix_path/trackinghead
+-- Installing: /home/yahyasetz/ros2/trackingcam2/src/install/trackinghead/share/trackinghead/environment/ament_prefix_path.sh
+-- Installing: /home/yahyasetz/ros2/trackingcam2/src/install/trackinghead/share/trackinghead/environment/ament_prefix_path.dsv
+-- Installing: /home/yahyasetz/ros2/trackingcam2/src/install/trackinghead/share/trackinghead/environment/path.sh
+-- Installing: /home/yahyasetz/ros2/trackingcam2/src/install/trackinghead/share/trackinghead/environment/path.dsv
+-- Installing: /home/yahyasetz/ros2/trackingcam2/src/install/trackinghead/share/trackinghead/local_setup.bash
+-- Installing: /home/yahyasetz/ros2/trackingcam2/src/install/trackinghead/share/trackinghead/local_setup.sh
+-- Installing: /home/yahyasetz/ros2/trackingcam2/src/install/trackinghead/share/trackinghead/local_setup.zsh
+-- Installing: /home/yahyasetz/ros2/trackingcam2/src/install/trackinghead/share/trackinghead/local_setup.dsv
+-- Installing: /home/yahyasetz/ros2/trackingcam2/src/install/trackinghead/share/trackinghead/package.dsv
+-- Installing: /home/yahyasetz/ros2/trackingcam2/src/install/trackinghead/share/ament_index/resource_index/packages/trackinghead
+-- Installing: /home/yahyasetz/ros2/trackingcam2/src/install/trackinghead/share/trackinghead/cmake/trackingheadConfig.cmake
+-- Installing: /home/yahyasetz/ros2/trackingcam2/src/install/trackinghead/share/trackinghead/cmake/trackingheadConfig-version.cmake
+-- Installing: /home/yahyasetz/ros2/trackingcam2/src/install/trackinghead/share/trackinghead/package.xml

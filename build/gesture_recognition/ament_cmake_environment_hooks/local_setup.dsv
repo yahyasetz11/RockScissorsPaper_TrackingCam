@@ -1,0 +1,2 @@
+source;share/gesture_recognition/environment/ament_prefix_path.sh
+source;share/gesture_recognition/environment/path.sh

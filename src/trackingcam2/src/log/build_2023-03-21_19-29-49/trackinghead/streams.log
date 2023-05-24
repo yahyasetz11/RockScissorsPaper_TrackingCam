@@ -1,0 +1,28 @@
+[0.024s] Invoking command in '/home/yahyasetz/ros2/trackingcam2/src/build/trackinghead': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/foxy /usr/bin/cmake --build /home/yahyasetz/ros2/trackingcam2/src/build/trackinghead -- -j8 -l8
+[0.083s] [35m[1mScanning dependencies of target head[0m
+[0.131s] [ 50%] [32mBuilding CXX object CMakeFiles/head.dir/src/main.cpp.o[0m
+[5.696s] [100%] [32m[1mLinking CXX executable head[0m
+[6.378s] /usr/bin/ld: warning: libopencv_imgproc.so.4.2, needed by /opt/ros/foxy/lib/libcv_bridge.so, may conflict with libopencv_imgproc.so.407
+[6.378s] /usr/bin/ld: warning: libopencv_core.so.4.2, needed by /opt/ros/foxy/lib/libcv_bridge.so, may conflict with libopencv_core.so.407
+[6.393s] [100%] Built target head
+[6.408s] Invoked command in '/home/yahyasetz/ros2/trackingcam2/src/build/trackinghead' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/foxy /usr/bin/cmake --build /home/yahyasetz/ros2/trackingcam2/src/build/trackinghead -- -j8 -l8
+[6.457s] Invoking command in '/home/yahyasetz/ros2/trackingcam2/src/build/trackinghead': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/foxy /usr/bin/cmake --install /home/yahyasetz/ros2/trackingcam2/src/build/trackinghead
+[6.468s] -- Install configuration: ""
+[6.468s] -- Installing: /home/yahyasetz/ros2/trackingcam2/src/install/trackinghead/lib/trackinghead/head
+[6.470s] -- Set runtime path of "/home/yahyasetz/ros2/trackingcam2/src/install/trackinghead/lib/trackinghead/head" to ""
+[6.470s] -- Up-to-date: /home/yahyasetz/ros2/trackingcam2/src/install/trackinghead/share/ament_index/resource_index/package_run_dependencies/trackinghead
+[6.470s] -- Up-to-date: /home/yahyasetz/ros2/trackingcam2/src/install/trackinghead/share/ament_index/resource_index/parent_prefix_path/trackinghead
+[6.471s] -- Up-to-date: /home/yahyasetz/ros2/trackingcam2/src/install/trackinghead/share/trackinghead/environment/ament_prefix_path.sh
+[6.471s] -- Up-to-date: /home/yahyasetz/ros2/trackingcam2/src/install/trackinghead/share/trackinghead/environment/ament_prefix_path.dsv
+[6.471s] -- Up-to-date: /home/yahyasetz/ros2/trackingcam2/src/install/trackinghead/share/trackinghead/environment/path.sh
+[6.471s] -- Up-to-date: /home/yahyasetz/ros2/trackingcam2/src/install/trackinghead/share/trackinghead/environment/path.dsv
+[6.471s] -- Up-to-date: /home/yahyasetz/ros2/trackingcam2/src/install/trackinghead/share/trackinghead/local_setup.bash
+[6.472s] -- Up-to-date: /home/yahyasetz/ros2/trackingcam2/src/install/trackinghead/share/trackinghead/local_setup.sh
+[6.472s] -- Up-to-date: /home/yahyasetz/ros2/trackingcam2/src/install/trackinghead/share/trackinghead/local_setup.zsh
+[6.472s] -- Up-to-date: /home/yahyasetz/ros2/trackingcam2/src/install/trackinghead/share/trackinghead/local_setup.dsv
+[6.472s] -- Installing: /home/yahyasetz/ros2/trackingcam2/src/install/trackinghead/share/trackinghead/package.dsv
+[6.472s] -- Up-to-date: /home/yahyasetz/ros2/trackingcam2/src/install/trackinghead/share/ament_index/resource_index/packages/trackinghead
+[6.472s] -- Up-to-date: /home/yahyasetz/ros2/trackingcam2/src/install/trackinghead/share/trackinghead/cmake/trackingheadConfig.cmake
+[6.473s] -- Up-to-date: /home/yahyasetz/ros2/trackingcam2/src/install/trackinghead/share/trackinghead/cmake/trackingheadConfig-version.cmake
+[6.473s] -- Up-to-date: /home/yahyasetz/ros2/trackingcam2/src/install/trackinghead/share/trackinghead/package.xml
+[6.474s] Invoked command in '/home/yahyasetz/ros2/trackingcam2/src/build/trackinghead' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/foxy /usr/bin/cmake --install /home/yahyasetz/ros2/trackingcam2/src/build/trackinghead

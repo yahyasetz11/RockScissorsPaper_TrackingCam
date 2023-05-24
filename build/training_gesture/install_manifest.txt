@@ -1,0 +1,16 @@
+/home/yahyasetz/ros2/install/training_gesture/lib/training_gesture/training
+/home/yahyasetz/ros2/install/training_gesture/share/ament_index/resource_index/package_run_dependencies/training_gesture
+/home/yahyasetz/ros2/install/training_gesture/share/ament_index/resource_index/parent_prefix_path/training_gesture
+/home/yahyasetz/ros2/install/training_gesture/share/training_gesture/environment/ament_prefix_path.sh
+/home/yahyasetz/ros2/install/training_gesture/share/training_gesture/environment/ament_prefix_path.dsv
+/home/yahyasetz/ros2/install/training_gesture/share/training_gesture/environment/path.sh
+/home/yahyasetz/ros2/install/training_gesture/share/training_gesture/environment/path.dsv
+/home/yahyasetz/ros2/install/training_gesture/share/training_gesture/local_setup.bash
+/home/yahyasetz/ros2/install/training_gesture/share/training_gesture/local_setup.sh
+/home/yahyasetz/ros2/install/training_gesture/share/training_gesture/local_setup.zsh
+/home/yahyasetz/ros2/install/training_gesture/share/training_gesture/local_setup.dsv
+/home/yahyasetz/ros2/install/training_gesture/share/training_gesture/package.dsv
+/home/yahyasetz/ros2/install/training_gesture/share/ament_index/resource_index/packages/training_gesture
+/home/yahyasetz/ros2/install/training_gesture/share/training_gesture/cmake/training_gestureConfig.cmake
+/home/yahyasetz/ros2/install/training_gesture/share/training_gesture/cmake/training_gestureConfig-version.cmake
+/home/yahyasetz/ros2/install/training_gesture/share/training_gesture/package.xml

@@ -1,0 +1,10 @@
+/home/yahyasetz/ros2/build/rock_papers/CMakeFiles/install/strip.dir
+/home/yahyasetz/ros2/build/rock_papers/CMakeFiles/install/local.dir
+/home/yahyasetz/ros2/build/rock_papers/CMakeFiles/install.dir
+/home/yahyasetz/ros2/build/rock_papers/CMakeFiles/list_install_components.dir
+/home/yahyasetz/ros2/build/rock_papers/CMakeFiles/rebuild_cache.dir
+/home/yahyasetz/ros2/build/rock_papers/CMakeFiles/imagetrack.dir
+/home/yahyasetz/ros2/build/rock_papers/CMakeFiles/edit_cache.dir
+/home/yahyasetz/ros2/build/rock_papers/CMakeFiles/test.dir
+/home/yahyasetz/ros2/build/rock_papers/CMakeFiles/rock_papers_uninstall.dir
+/home/yahyasetz/ros2/build/rock_papers/CMakeFiles/uninstall.dir

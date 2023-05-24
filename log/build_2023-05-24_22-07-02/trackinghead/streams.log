@@ -1,0 +1,82 @@
+[0.066s] Invoking command in '/home/yahyasetz/ros2/build/trackinghead': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/foxy /usr/bin/cmake /home/yahyasetz/ros2/src/trackingcam2/src/trackinghead -DCMAKE_INSTALL_PREFIX=/home/yahyasetz/ros2/install/trackinghead
+[0.176s] -- The C compiler identification is GNU 9.4.0
+[0.314s] -- The CXX compiler identification is GNU 9.4.0
+[0.325s] -- Check for working C compiler: /usr/bin/cc
+[0.476s] -- Check for working C compiler: /usr/bin/cc -- works
+[0.479s] -- Detecting C compiler ABI info
+[0.611s] -- Detecting C compiler ABI info - done
+[0.634s] -- Detecting C compile features
+[0.635s] -- Detecting C compile features - done
+[0.640s] -- Check for working CXX compiler: /usr/bin/c++
+[0.818s] -- Check for working CXX compiler: /usr/bin/c++ -- works
+[0.822s] -- Detecting CXX compiler ABI info
+[0.999s] -- Detecting CXX compiler ABI info - done
+[1.029s] -- Detecting CXX compile features
+[1.030s] -- Detecting CXX compile features - done
+[1.033s] -- Found ament_cmake: 0.9.11 (/opt/ros/foxy/share/ament_cmake/cmake)
+[1.077s] -- Found PythonInterp: /usr/bin/python3 (found suitable version "3.8.10", minimum required is "3") 
+[1.078s] -- Using PYTHON_EXECUTABLE: /usr/bin/python3
+[1.533s] -- Found rclcpp: 2.4.2 (/opt/ros/foxy/share/rclcpp/cmake)
+[1.663s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[1.676s] -- Found rosidl_adapter: 1.3.0 (/opt/ros/foxy/share/rosidl_adapter/cmake)
+[1.842s] -- Found OpenSSL: /usr/lib/x86_64-linux-gnu/libcrypto.so (found version "1.1.1f")  
+[1.901s] -- Found FastRTPS: /opt/ros/foxy/include  
+[2.051s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[2.156s] -- Found rmw_implementation_cmake: 1.0.4 (/opt/ros/foxy/share/rmw_implementation_cmake/cmake)
+[2.159s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[2.160s] -- Looking for pthread.h
+[2.320s] -- Looking for pthread.h - found
+[2.320s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD
+[2.490s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD - Failed
+[2.491s] -- Looking for pthread_create in pthreads
+[2.602s] -- Looking for pthread_create in pthreads - not found
+[2.602s] -- Looking for pthread_create in pthread
+[2.748s] -- Looking for pthread_create in pthread - found
+[2.751s] -- Found Threads: TRUE  
+[3.203s] -- Found sensor_msgs: 2.0.5 (/opt/ros/foxy/share/sensor_msgs/cmake)
+[3.576s] -- Found OpenCV: /usr/local (found version "4.7.0") 
+[3.580s] -- Found image_transport: 2.4.0 (/opt/ros/foxy/share/image_transport/cmake)
+[3.702s] -- Found cv_bridge: 3.0.7 (/opt/ros/foxy/share/cv_bridge/cmake)
+[3.782s] -- Found ament_lint_auto: 0.9.8 (/opt/ros/foxy/share/ament_lint_auto/cmake)
+[3.964s] -- Added test 'copyright' to check source files copyright and LICENSE
+[3.964s] -- Added test 'cppcheck' to perform static code analysis on C / C++ code
+[3.965s] -- Configured cppcheck include dirs: 
+[3.965s] -- Configured cppcheck exclude dirs and/or files: 
+[3.966s] -- Added test 'cpplint' to check C / C++ code against the Google style
+[3.966s] -- Configured cpplint exclude dirs and/or files: 
+[3.968s] -- Added test 'lint_cmake' to check CMake code style
+[3.970s] -- Added test 'uncrustify' to check C / C++ code style
+[3.971s] -- Configured uncrustify additional arguments: 
+[3.972s] -- Added test 'xmllint' to check XML markup files
+[3.981s] -- Configuring done
+[4.019s] -- Generating done
+[4.022s] -- Build files have been written to: /home/yahyasetz/ros2/build/trackinghead
+[4.039s] Invoked command in '/home/yahyasetz/ros2/build/trackinghead' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/foxy /usr/bin/cmake /home/yahyasetz/ros2/src/trackingcam2/src/trackinghead -DCMAKE_INSTALL_PREFIX=/home/yahyasetz/ros2/install/trackinghead
+[4.046s] Invoking command in '/home/yahyasetz/ros2/build/trackinghead': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/foxy /usr/bin/cmake --build /home/yahyasetz/ros2/build/trackinghead -- -j8 -l8
+[4.133s] [35m[1mScanning dependencies of target head[0m
+[4.277s] [ 50%] [32mBuilding CXX object CMakeFiles/head.dir/src/main.cpp.o[0m
+[11.933s] [100%] [32m[1mLinking CXX executable head[0m
+[12.850s] /usr/bin/ld: warning: libopencv_imgproc.so.4.2, needed by /opt/ros/foxy/lib/libcv_bridge.so, may conflict with libopencv_imgproc.so.407
+[12.850s] /usr/bin/ld: warning: libopencv_core.so.4.2, needed by /opt/ros/foxy/lib/libcv_bridge.so, may conflict with libopencv_core.so.407
+[12.866s] [100%] Built target head
+[12.884s] Invoked command in '/home/yahyasetz/ros2/build/trackinghead' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/foxy /usr/bin/cmake --build /home/yahyasetz/ros2/build/trackinghead -- -j8 -l8
+[12.921s] Invoking command in '/home/yahyasetz/ros2/build/trackinghead': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/foxy /usr/bin/cmake --install /home/yahyasetz/ros2/build/trackinghead
+[12.933s] -- Install configuration: ""
+[12.933s] -- Installing: /home/yahyasetz/ros2/install/trackinghead/lib/trackinghead/head
+[12.935s] -- Set runtime path of "/home/yahyasetz/ros2/install/trackinghead/lib/trackinghead/head" to ""
+[12.935s] -- Installing: /home/yahyasetz/ros2/install/trackinghead/share/ament_index/resource_index/package_run_dependencies/trackinghead
+[12.935s] -- Installing: /home/yahyasetz/ros2/install/trackinghead/share/ament_index/resource_index/parent_prefix_path/trackinghead
+[12.935s] -- Installing: /home/yahyasetz/ros2/install/trackinghead/share/trackinghead/environment/ament_prefix_path.sh
+[12.936s] -- Installing: /home/yahyasetz/ros2/install/trackinghead/share/trackinghead/environment/ament_prefix_path.dsv
+[12.936s] -- Installing: /home/yahyasetz/ros2/install/trackinghead/share/trackinghead/environment/path.sh
+[12.936s] -- Installing: /home/yahyasetz/ros2/install/trackinghead/share/trackinghead/environment/path.dsv
+[12.936s] -- Installing: /home/yahyasetz/ros2/install/trackinghead/share/trackinghead/local_setup.bash
+[12.937s] -- Installing: /home/yahyasetz/ros2/install/trackinghead/share/trackinghead/local_setup.sh
+[12.937s] -- Installing: /home/yahyasetz/ros2/install/trackinghead/share/trackinghead/local_setup.zsh
+[12.937s] -- Installing: /home/yahyasetz/ros2/install/trackinghead/share/trackinghead/local_setup.dsv
+[12.937s] -- Installing: /home/yahyasetz/ros2/install/trackinghead/share/trackinghead/package.dsv
+[12.937s] -- Installing: /home/yahyasetz/ros2/install/trackinghead/share/ament_index/resource_index/packages/trackinghead
+[12.938s] -- Installing: /home/yahyasetz/ros2/install/trackinghead/share/trackinghead/cmake/trackingheadConfig.cmake
+[12.938s] -- Installing: /home/yahyasetz/ros2/install/trackinghead/share/trackinghead/cmake/trackingheadConfig-version.cmake
+[12.939s] -- Installing: /home/yahyasetz/ros2/install/trackinghead/share/trackinghead/package.xml
+[12.946s] Invoked command in '/home/yahyasetz/ros2/build/trackinghead' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/foxy /usr/bin/cmake --install /home/yahyasetz/ros2/build/trackinghead

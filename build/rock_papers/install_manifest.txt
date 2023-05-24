@@ -1,0 +1,16 @@
+/home/yahyasetz/ros2/install/rock_papers/lib/rock_papers/imagetrack
+/home/yahyasetz/ros2/install/rock_papers/share/ament_index/resource_index/package_run_dependencies/rock_papers
+/home/yahyasetz/ros2/install/rock_papers/share/ament_index/resource_index/parent_prefix_path/rock_papers
+/home/yahyasetz/ros2/install/rock_papers/share/rock_papers/environment/ament_prefix_path.sh
+/home/yahyasetz/ros2/install/rock_papers/share/rock_papers/environment/ament_prefix_path.dsv
+/home/yahyasetz/ros2/install/rock_papers/share/rock_papers/environment/path.sh
+/home/yahyasetz/ros2/install/rock_papers/share/rock_papers/environment/path.dsv
+/home/yahyasetz/ros2/install/rock_papers/share/rock_papers/local_setup.bash
+/home/yahyasetz/ros2/install/rock_papers/share/rock_papers/local_setup.sh
+/home/yahyasetz/ros2/install/rock_papers/share/rock_papers/local_setup.zsh
+/home/yahyasetz/ros2/install/rock_papers/share/rock_papers/local_setup.dsv
+/home/yahyasetz/ros2/install/rock_papers/share/rock_papers/package.dsv
+/home/yahyasetz/ros2/install/rock_papers/share/ament_index/resource_index/packages/rock_papers
+/home/yahyasetz/ros2/install/rock_papers/share/rock_papers/cmake/rock_papersConfig.cmake
+/home/yahyasetz/ros2/install/rock_papers/share/rock_papers/cmake/rock_papersConfig-version.cmake
+/home/yahyasetz/ros2/install/rock_papers/share/rock_papers/package.xml

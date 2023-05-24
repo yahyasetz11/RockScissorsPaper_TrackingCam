@@ -1,0 +1,6 @@
+Invoking command in '/home/yahyasetz/ros2/build/training_gesture': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/foxy /usr/bin/cmake /home/yahyasetz/ros2/src/training_gesture -DCMAKE_INSTALL_PREFIX=/home/yahyasetz/ros2/install/training_gesture
+Invoked command in '/home/yahyasetz/ros2/build/training_gesture' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/foxy /usr/bin/cmake /home/yahyasetz/ros2/src/training_gesture -DCMAKE_INSTALL_PREFIX=/home/yahyasetz/ros2/install/training_gesture
+Invoking command in '/home/yahyasetz/ros2/build/training_gesture': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/foxy /usr/bin/cmake --build /home/yahyasetz/ros2/build/training_gesture -- -j8 -l8
+Invoked command in '/home/yahyasetz/ros2/build/training_gesture' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/foxy /usr/bin/cmake --build /home/yahyasetz/ros2/build/training_gesture -- -j8 -l8
+Invoking command in '/home/yahyasetz/ros2/build/training_gesture': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/foxy /usr/bin/cmake --install /home/yahyasetz/ros2/build/training_gesture
+Invoked command in '/home/yahyasetz/ros2/build/training_gesture' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/foxy /usr/bin/cmake --install /home/yahyasetz/ros2/build/training_gesture

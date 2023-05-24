@@ -1,0 +1,22 @@
+[0.023s] Invoking command in '/home/yahyasetz/ros2/trackingcam2/src/build/trackinghead': CMAKE_PREFIX_PATH=/opt/ros/foxy /usr/bin/cmake /home/yahyasetz/ros2/trackingcam2/src/trackinghead -DCMAKE_INSTALL_PREFIX=/home/yahyasetz/ros2/trackingcam2/src/install/trackinghead
+[0.042s] -- Found ament_cmake: 0.9.11 (/opt/ros/foxy/share/ament_cmake/cmake)
+[0.065s] -- Using PYTHON_EXECUTABLE: /usr/bin/python3
+[0.289s] -- Found rclcpp: 2.4.2 (/opt/ros/foxy/share/rclcpp/cmake)
+[0.337s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[0.342s] -- Found rosidl_adapter: 1.3.0 (/opt/ros/foxy/share/rosidl_adapter/cmake)
+[0.492s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[0.567s] -- Found rmw_implementation_cmake: 1.0.3 (/opt/ros/foxy/share/rmw_implementation_cmake/cmake)
+[0.570s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[0.789s] -- Found sensor_msgs: 2.0.5 (/opt/ros/foxy/share/sensor_msgs/cmake)
+[0.969s] -- Found cv_bridge: 3.0.7 (/opt/ros/foxy/share/cv_bridge/cmake)
+[0.987s] CMake Error at /opt/ros/foxy/share/ament_cmake_target_dependencies/cmake/ament_target_dependencies.cmake:77 (message):
+[0.987s]   ament_target_dependencies() the passed package name 'image_transport' was
+[0.988s]   not found before
+[0.988s] Call Stack (most recent call first):
+[0.988s]   CMakeLists.txt:29 (ament_target_dependencies)
+[0.988s] 
+[0.988s] 
+[0.990s] -- Configuring incomplete, errors occurred!
+[0.990s] See also "/home/yahyasetz/ros2/trackingcam2/src/build/trackinghead/CMakeFiles/CMakeOutput.log".
+[0.990s] See also "/home/yahyasetz/ros2/trackingcam2/src/build/trackinghead/CMakeFiles/CMakeError.log".
+[0.997s] Invoked command in '/home/yahyasetz/ros2/trackingcam2/src/build/trackinghead' returned '1': CMAKE_PREFIX_PATH=/opt/ros/foxy /usr/bin/cmake /home/yahyasetz/ros2/trackingcam2/src/trackinghead -DCMAKE_INSTALL_PREFIX=/home/yahyasetz/ros2/trackingcam2/src/install/trackinghead

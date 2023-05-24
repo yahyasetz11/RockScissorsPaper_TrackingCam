@@ -1,0 +1,16 @@
+/home/yahyasetz/ros2/install/opencamera/libopencamera/main
+/home/yahyasetz/ros2/install/opencamera/share/ament_index/resource_index/package_run_dependencies/opencamera
+/home/yahyasetz/ros2/install/opencamera/share/ament_index/resource_index/parent_prefix_path/opencamera
+/home/yahyasetz/ros2/install/opencamera/share/opencamera/environment/ament_prefix_path.sh
+/home/yahyasetz/ros2/install/opencamera/share/opencamera/environment/ament_prefix_path.dsv
+/home/yahyasetz/ros2/install/opencamera/share/opencamera/environment/path.sh
+/home/yahyasetz/ros2/install/opencamera/share/opencamera/environment/path.dsv
+/home/yahyasetz/ros2/install/opencamera/share/opencamera/local_setup.bash
+/home/yahyasetz/ros2/install/opencamera/share/opencamera/local_setup.sh
+/home/yahyasetz/ros2/install/opencamera/share/opencamera/local_setup.zsh
+/home/yahyasetz/ros2/install/opencamera/share/opencamera/local_setup.dsv
+/home/yahyasetz/ros2/install/opencamera/share/opencamera/package.dsv
+/home/yahyasetz/ros2/install/opencamera/share/ament_index/resource_index/packages/opencamera
+/home/yahyasetz/ros2/install/opencamera/share/opencamera/cmake/opencameraConfig.cmake
+/home/yahyasetz/ros2/install/opencamera/share/opencamera/cmake/opencameraConfig-version.cmake
+/home/yahyasetz/ros2/install/opencamera/share/opencamera/package.xml
